@@ -17,6 +17,7 @@
  * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
  * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
  */
+
 package xar.internal.rest;
 
 import jakarta.inject.Inject;
@@ -36,8 +37,10 @@ import org.xwiki.model.reference.DocumentReferenceResolver;
 import org.xwiki.model.reference.EntityReferenceSerializer;
 import org.xwiki.bridge.DocumentAccessBridge;
 import org.xwiki.rest.XWikiResource;
+
 import java.net.URI;
 import xar.RedirectAction;
+import xar.internal.logging.*;
 import org.slf4j.Logger;
 import org.xwiki.rest.XWikiRestComponent;
 
@@ -66,17 +69,20 @@ public class RedirectActionImpl implements RedirectAction, XWikiRestComponent {
 	@Path("/redirect")
 	public Response redirect(@QueryParam("page") String page) {
 
-		log.debug("Entering page dimension");
-
 		if (page == null || page.isBlank()) {
 			return Response.status(Response.Status.BAD_REQUEST).entity("Missing Required Query Parameter: page")
 					.build();
 		}
-		
-		log.debug("***PROCESSING REDIRECT***");
+
+		//log.info("###PROCESSING REDIRECT###");
+		//log.debug("Parameter Passing Info\n 'Page': {}", page);
+		LogHelper.debug(log, "Parameter Passing Info",
+				"Page: " + page,
+				"End of Parms");
 		try {
 			DocumentReference docRef = resolver.resolve(page.trim());
 			XWikiContext xwikiContext = getXWikiContext();
+			
 			XWiki xwiki = xwikiContext.getWiki();
 			String relativeUrl = xwiki.getURL(
 					docRef,
@@ -86,13 +92,19 @@ public class RedirectActionImpl implements RedirectAction, XWikiRestComponent {
 					xwikiContext);
 
 			URI baseUri = uri.getBaseUri();
+			//log.debug("base uri: {}", baseUri);
+			LogHelper.debug(log,"uri info",
+					"base uri: {}"+ baseUri,
+					"relative url: " + relativeUrl);
 			String baseUrl = baseUri.getScheme()
 					+ "://"
 					+ baseUri.getHost()
 					+ (baseUri.getPort() != -1 ? ":" + baseUri.getPort() : "");
 
-			URI redirectUri = URI.create(baseUrl + relativeUrl);
-			log.debug("redirect uri: {}");
+			log.debug("base urL: {},relative url: {}", baseUrl,relativeUrl);
+			URI redirectUri = URI.create(relativeUrl);
+			LogHelper.debug(log,"Redirect",
+					"Redirecting to: " + redirectUri);
 
 			// ── 5. Return 302 redirect ─────────────────────────────────────────
 			return Response.temporaryRedirect(redirectUri).build();
@@ -106,10 +118,11 @@ public class RedirectActionImpl implements RedirectAction, XWikiRestComponent {
 					.build();
 		}
 	}
-		
+
 	private XWikiContext getXWikiContext() {
 		return (XWikiContext) execution
 				.getContext()
 				.getProperty(XWikiContext.EXECUTIONCONTEXT_KEY);
 	}
+
 }
