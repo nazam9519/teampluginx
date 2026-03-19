@@ -1,0 +1,2 @@
+xar.internal.ExampleMacro
+xar.internal.rest.RedirectActionImpl
