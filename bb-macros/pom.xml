@@ -70,7 +70,6 @@
       </plugin>
     </plugins>
   </build>
-
   <dependencies>
     <dependency>
         <groupId>jakarta.ws.rs</groupId>
@@ -101,7 +100,7 @@
     <artifactId>xwiki-platform-oldcore</artifactId>
     <version>17.10.3</version>
     <scope>provided</scope>
-</dependency>
+    </dependency>
     <dependency>
       <groupId>org.xwiki.platform</groupId>
       <artifactId>xwiki-platform-rest-api</artifactId>
@@ -145,10 +144,15 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-    <groupId>org.xwiki.platform</groupId>
-    <artifactId>xwiki-platform-rest-server</artifactId>
-    <version>${platform.version}</version>
-    <scope>provided</scope>
-</dependency>
+      <groupId>org.xwiki.platform</groupId>
+      <artifactId>xwiki-platform-rest-server</artifactId>
+      <version>${platform.version}</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.xwiki.platform</groupId>
+      <artifactId>xwiki-platform-search-solr-query</artifactId>
+      <version>17.10.3</version>
+    </dependency>
   </dependencies>
 </project>

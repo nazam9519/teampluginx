@@ -20,6 +20,8 @@
 
 package xar.internal.rest;
 
+import java.util.ArrayList;
+import java.util.List;
 import jakarta.inject.Inject;
 import javax.inject.Singleton;
 import javax.servlet.http.HttpServletRequest;
@@ -34,9 +36,9 @@ import org.xwiki.context.Execution;
 import org.xwiki.component.annotation.Component;
 import org.xwiki.model.reference.DocumentReference;
 import org.xwiki.model.reference.DocumentReferenceResolver;
-import org.xwiki.model.reference.EntityReferenceSerializer;
-import org.xwiki.bridge.DocumentAccessBridge;
-import org.xwiki.rest.XWikiResource;
+import org.xwiki.query.QueryManager;
+import org.xwiki.query.Query;
+import org.apache.solr.client.solrj.response.QueryResponse;
 
 import java.net.URI;
 import xar.RedirectAction;
@@ -53,6 +55,9 @@ public class RedirectActionImpl implements RedirectAction, XWikiRestComponent {
 
 	@Inject
 	private Logger log;
+
+	@Inject
+	private QueryManager queryManager;
 
 	@Inject
 	@Named("current")
@@ -80,9 +85,24 @@ public class RedirectActionImpl implements RedirectAction, XWikiRestComponent {
 				"Page: " + page,
 				"End of Parms");
 		try {
+			LogHelper.info(log, "Checking Query", "end msg");
+			Query q = queryManager.createQuery("*:* AND type:DOCUMENT", "solr");
+			List<QueryResponse> response =  q.execute();
+			log.info("Acquired Query");
+			log.info("Response size: {}", response.size());
+			for (var qr : response.get(0).getResults()) {
+				log.warn("Query Info, {},{},{}",
+					 "Wiki Name: "+qr.getFieldValue("wiki"),
+					 "Page Name: "+qr.getFieldValue("name"),
+					 "size: " + response.get(0).getResults().size()							 
+					 );
+			}
+			log.warn("finished up");
+
 			DocumentReference docRef = resolver.resolve(page.trim());
+			log.info("ref of doc: " + docRef.getName());
 			XWikiContext xwikiContext = getXWikiContext();
-			
+
 			XWiki xwiki = xwikiContext.getWiki();
 			String relativeUrl = xwiki.getURL(
 					docRef,
@@ -93,17 +113,17 @@ public class RedirectActionImpl implements RedirectAction, XWikiRestComponent {
 
 			URI baseUri = uri.getBaseUri();
 			//log.debug("base uri: {}", baseUri);
-			LogHelper.debug(log,"uri info",
-					"base uri: {}"+ baseUri,
+			LogHelper.debug(log, "uri info",
+					"base uri: {}" + baseUri,
 					"relative url: " + relativeUrl);
 			String baseUrl = baseUri.getScheme()
 					+ "://"
 					+ baseUri.getHost()
 					+ (baseUri.getPort() != -1 ? ":" + baseUri.getPort() : "");
 
-			log.debug("base urL: {},relative url: {}", baseUrl,relativeUrl);
+			log.debug("base urL: {},relative url: {}", baseUrl, relativeUrl);
 			URI redirectUri = URI.create(relativeUrl);
-			LogHelper.debug(log,"Redirect",
+			LogHelper.debug(log, "Redirect",
 					"Redirecting to: " + redirectUri);
 
 			// ── 5. Return 302 redirect ─────────────────────────────────────────
@@ -124,5 +144,4 @@ public class RedirectActionImpl implements RedirectAction, XWikiRestComponent {
 				.getContext()
 				.getProperty(XWikiContext.EXECUTIONCONTEXT_KEY);
 	}
-
 }
