@@ -1,0 +1,89 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="
+          http://maven.apache.org/SETTINGS/1.0.0
+          https://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+  <profiles>
+    <profile>
+      <id>xwiki</id>
+      <repositories>
+        <repository>
+          <id>xwiki-releases</id>
+          <name>XWiki Releases</name>
+          <url>https://maven.xwiki.org/releases/</url>
+          <releases>
+            <enabled>true</enabled>
+          </releases>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+        </repository>
+    <repository>
+      <id>externx</id>
+      <url>https://maven.xwiki.org/externals/</url>
+    </repository>
+    <repository>
+        <id>public-store-releases</id>
+        <name>XWiki SAS Public Store Repository for Releases</name>
+        <url>https://nexus.xwiki.com/nexus/content/repositories/public-store-releases/</url>
+        <releases>
+          <enabled>true</enabled>
+        </releases>
+        <snapshots>
+          <enabled>false</enabled>
+       </snapshots> 
+     </repository>
+
+      </repositories>
+
+      <pluginRepositories>
+        <pluginRepository>
+          <id>xwiki-releases</id>
+          <name>XWiki Releases</name>
+          <url>https://maven.xwiki.org/releases/</url>
+          <releases>
+            <enabled>true</enabled>
+          </releases>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+        </pluginRepository>
+      </pluginRepositories>
+
+    </profile>
+    <profile>
+  <id>atlassian</id>
+
+  <repositories>
+    <repository>
+      <id>atlassian-public</id>
+      <url>https://packages.atlassian.com/maven-public/</url>
+    </repository>
+    <repository>
+      <id>teledump</id>
+      <url>https://maven.restlet.talend.com/</url>
+    </repository>
+    <repository>
+      <id>css4j</id>
+      <url>https://css4j.github.io/maven/</url>
+    </repository>
+  </repositories>
+
+  <pluginRepositories>
+    <pluginRepository>
+      <id>atlassian-public</id>
+      <url>https://packages.atlassian.com/maven-public/</url>
+    </pluginRepository>
+  </pluginRepositories>
+
+</profile>
+  </profiles>
+
+  <activeProfiles>
+    <activeProfile>xwiki</activeProfile>
+    <activeProfile>atlassian</activeProfile>
+  </activeProfiles>
+
+</settings>
+
