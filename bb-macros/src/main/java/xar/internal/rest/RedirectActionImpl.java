@@ -84,11 +84,14 @@ public class RedirectActionImpl implements RedirectAction, XWikiRestComponent {
 		LogHelper.debug(log, "Parameter Passing Info",
 				"Page: " + page,
 				"End of Parms");
+
+		LogHelper.debug(log,"ad");
 		try {
 			LogHelper.info(log, "Checking Query", "end msg");
 			Query q = queryManager.createQuery("*:* AND type:DOCUMENT", "solr");
 			List<QueryResponse> response =  q.execute();
 			log.info("Acquired Query");
+			log.info("Go");
 			log.info("Response size: {}", response.size());
 			for (var qr : response.get(0).getResults()) {
 				log.warn("Query Info, {},{},{}",

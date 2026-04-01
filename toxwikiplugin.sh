@@ -1,12 +1,17 @@
-#!/usr/local/bin/bash
+#!/usr/bin/bash
 
 set -e
 
 SOURCE_DIR="$(pwd)/xip"
-XWIKI_DIR="$HOME/xwiki2"
+XWIKI_DIR="$HOME/localprojects/docker-xwiki"
 STAGING_DIR="$XWIKI_DIR/xips"
 UNZIP_DIR="$STAGING_DIR/bbmacsdir"
 DEST_DIR="$XWIKI_DIR/xwikidata/data/extension/repository"
+echo $SOURCE_DIR
+echo $XWIKI_DIR
+echo $STAGING_DIR
+echo $UNZIP_DIR
+echo $DEST_DIR
 
 
 # ── 1. Copy all .xip files to staging and rename to .zip ──────────────────────
