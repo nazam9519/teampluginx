@@ -20,68 +20,80 @@
  * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
 -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <groupId>org.xwiki.contrib</groupId>
-    <artifactId>parent-platform</artifactId>
-    <version>17.10.3</version>
-  </parent>
-  <developers>
-    <developer>
-        <id>bb</id>
-        <name>Nabil Azam</name>
-        <email>nazam@adaptavist.com</email>
-    </developer>
-  </developers>
-  <groupId>org.xwiki.contrib.bb-plugin</groupId>
-  <artifactId>bb-plugin</artifactId>
-  <name>xWiki - Parent POM</name>
-  <version>${revision}</version>
-  <packaging>pom</packaging>
-  <description>bb xwiki plugins parent pom</description>
-  <properties>
-    <revision>1.19</revision>
-    <jira.version>11.1.2</jira.version>
-    <confluence.version>1.0.38</confluence.version>
-    <xwiki.version>17.10.3</xwiki.version>
-    <xwiki-pro.version>13.13.4</xwiki-pro.version>
-    <enforcer.skip>true</enforcer.skip>
-  </properties>
-  <modules>
-    <!-- Sorted Alphabetically -->
-    <module>bb-macros</module>
-    <module>bb-macros-xip</module>
-    
-  </modules>
-  <build>
-    <plugins>
-        <plugin>
-            <artifactId>maven-antrun-plugin</artifactId>
-	    <version>3.1.0</version>
-	    <executions>
-              <execution>
-		<id>collect-xips</id>
-		<phase>install</phase>
-		<goals>
-		  <goal>run</goal>
-		</goals>
-		<configuration>
-		  <target>
-		    <!-- destination directory -->
-		    <mkdir dir="${project.basedir}/xip"/>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.xwiki.contrib</groupId>
+        <artifactId>parent-platform</artifactId>
+        <version>17.10.3</version>
+    </parent>
+    <developers>
+        <developer>
+            <id>bb</id>
+            <name>Nabil Azam</name>
+            <email>nazam@adaptavist.com</email>
+        </developer>
+    </developers>
+    <groupId>org.xwiki.contrib.bb-plugin</groupId>
+    <artifactId>bb-plugin</artifactId>
+    <name>xWiki - Parent POM</name>
+    <version>${revision}</version>
+    <packaging>pom</packaging>
+    <description>bb xwiki plugins parent pom</description>
+    <properties>
+        <revision>1.21</revision>
+        <jira.version>11.1.2</jira.version>
+        <confluence.version>1.0.38</confluence.version>
+        <xwiki.version>17.10.3</xwiki.version>
+        <xwiki-pro.version>13.13.4</xwiki-pro.version>
+        <enforcer.skip>true</enforcer.skip>
+    </properties>
+    <modules>
+        <!-- Sorted Alphabetically -->
+        <module>bb-macros</module>
+        <module>bb-xwiki-services</module>
+        <module>bb-macros-xip</module>
+        <module>bb-xwiki-services-xip</module>
 
-		    <!-- copy all xips from all modules -->
-		    <copy todir="${project.basedir}/xip" flatten="true">
-                      <fileset dir="${project.basedir}">
-			<include name="**/target/*.xip"/>
-                      </fileset>
-		    </copy>
-		  </target>
-		</configuration>
-              </execution>
-	    </executions>
-        </plugin>
-    </plugins>
-  </build>
+    </modules>
+    <dependencies>
+        <!-- Testing dependencies -->
+        <dependency>
+            <groupId>org.xwiki.rendering</groupId>
+            <artifactId>xwiki-rendering-test</artifactId>
+            <version>${rendering.version}</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <version>3.1.0</version>
+                <executions>
+                    <execution>
+                        <id>collect-xips</id>
+                        <phase>install</phase>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                        <configuration>
+                            <target>
+                                <!-- destination directory -->
+                                <mkdir dir="${project.basedir}/xip"/>
+
+                                <!-- copy all xips from all modules -->
+                                <copy todir="${project.basedir}/xip" flatten="true">
+                                    <fileset dir="${project.basedir}">
+                                        <include name="**/target/*.xip"/>
+                                    </fileset>
+                                </copy>
+                            </target>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>

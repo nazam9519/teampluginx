@@ -3,286 +3,1068 @@
 [INFO] Reactor Build Order:
 [INFO] 
 [INFO] xWiki - Parent POM                                                 [pom]
-[INFO] XWiki Macro - Example                                              [jar]
-[WARNING] The artifact com.gradle:gradle-enterprise-maven-extension:jar:2.0 has been relocated to com.gradle:develocity-maven-extension:jar:2.0
+[INFO] XWiki Macro - Example                                              [bbxservices]
+[WARNING] The artifact com.gradle:gradle-enterprise-maven-extension:bbxservices:2.0 has been relocated to com.gradle:develocity-maven-extension:bbxservices:2.0
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/apache/maven/plugins/maven-release-plugin/2.5.3/maven-release-plugin-2.5.3.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/apache/maven/plugins/maven-release-plugin/2.5.3/maven-release-plugin-2.5.3.pom
 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/2.5.3/maven-release-plugin-2.5.3.pom
-Progress (1): 842 BProgress (1): 2.0 kBProgress (1): 5.3 kBProgress (1): 8.1 kBProgress (1): 11 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/2.5.3/maven-release-plugin-2.5.3.pom (11 kB at 44 kB/s)
+Progress (1): 842 B
+Progress (1): 2.0 kB
+Progress (1): 5.3 kB
+Progress (1): 8.1 kB
+Progress (1): 11 kB 
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/2.5.3/maven-release-plugin-2.5.3.pom (11 kB at 44 kB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/apache/maven/release/maven-release/2.5.3/maven-release-2.5.3.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/apache/maven/release/maven-release/2.5.3/maven-release-2.5.3.pom
 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/release/maven-release/2.5.3/maven-release-2.5.3.pom
-Progress (1): 824 BProgress (1): 1.8 kBProgress (1): 3.7 kBProgress (1): 5.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/release/maven-release/2.5.3/maven-release-2.5.3.pom (5.0 kB at 112 kB/s)
-Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/apache/maven/plugins/maven-release-plugin/2.5.3/maven-release-plugin-2.5.3.jar
-Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/apache/maven/plugins/maven-release-plugin/2.5.3/maven-release-plugin-2.5.3.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/2.5.3/maven-release-plugin-2.5.3.jar
-Progress (1): 0.9/53 kBProgress (1): 2.3/53 kBProgress (1): 3.6/53 kBProgress (1): 5.0/53 kBProgress (1): 6.4/53 kBProgress (1): 7.7/53 kBProgress (1): 9.1/53 kBProgress (1): 10/53 kB Progress (1): 12/53 kBProgress (1): 13/53 kBProgress (1): 15/53 kBProgress (1): 16/53 kBProgress (1): 17/53 kBProgress (1): 19/53 kBProgress (1): 20/53 kBProgress (1): 21/53 kBProgress (1): 23/53 kBProgress (1): 24/53 kBProgress (1): 25/53 kBProgress (1): 26/53 kBProgress (1): 27/53 kBProgress (1): 29/53 kBProgress (1): 30/53 kBProgress (1): 31/53 kBProgress (1): 33/53 kBProgress (1): 34/53 kBProgress (1): 36/53 kBProgress (1): 37/53 kBProgress (1): 38/53 kBProgress (1): 40/53 kBProgress (1): 41/53 kBProgress (1): 42/53 kBProgress (1): 44/53 kBProgress (1): 45/53 kBProgress (1): 46/53 kBProgress (1): 51/53 kBProgress (1): 53 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/2.5.3/maven-release-plugin-2.5.3.jar (53 kB at 883 kB/s)
+Progress (1): 824 B
+Progress (1): 1.8 kB
+Progress (1): 3.7 kB
+Progress (1): 5.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/release/maven-release/2.5.3/maven-release-2.5.3.pom (5.0 kB at 112 kB/s)
+Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/apache/maven/plugins/maven-release-plugin/2.5.3/maven-release-plugin-2.5.3.bbxservices
+Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/apache/maven/plugins/maven-release-plugin/2.5.3/maven-release-plugin-2.5.3.bbxservices
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/2.5.3/maven-release-plugin-2.5.3.bbxservices
+Progress (1): 0.9/53 kB
+Progress (1): 2.3/53 kB
+Progress (1): 3.6/53 kB
+Progress (1): 5.0/53 kB
+Progress (1): 6.4/53 kB
+Progress (1): 7.7/53 kB
+Progress (1): 9.1/53 kB
+Progress (1): 10/53 kB 
+Progress (1): 12/53 kB
+Progress (1): 13/53 kB
+Progress (1): 15/53 kB
+Progress (1): 16/53 kB
+Progress (1): 17/53 kB
+Progress (1): 19/53 kB
+Progress (1): 20/53 kB
+Progress (1): 21/53 kB
+Progress (1): 23/53 kB
+Progress (1): 24/53 kB
+Progress (1): 25/53 kB
+Progress (1): 26/53 kB
+Progress (1): 27/53 kB
+Progress (1): 29/53 kB
+Progress (1): 30/53 kB
+Progress (1): 31/53 kB
+Progress (1): 33/53 kB
+Progress (1): 34/53 kB
+Progress (1): 36/53 kB
+Progress (1): 37/53 kB
+Progress (1): 38/53 kB
+Progress (1): 40/53 kB
+Progress (1): 41/53 kB
+Progress (1): 42/53 kB
+Progress (1): 44/53 kB
+Progress (1): 45/53 kB
+Progress (1): 46/53 kB
+Progress (1): 51/53 kB
+Progress (1): 53 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/2.5.3/maven-release-plugin-2.5.3.bbxservices (53 kB at 883 kB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/apache/maven/plugins/maven-invoker-plugin/3.3.0/maven-invoker-plugin-3.3.0.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/apache/maven/plugins/maven-invoker-plugin/3.3.0/maven-invoker-plugin-3.3.0.pom
 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-invoker-plugin/3.3.0/maven-invoker-plugin-3.3.0.pom
-Progress (1): 749 BProgress (1): 2.1 kBProgress (1): 4.9 kBProgress (1): 9.1 kBProgress (1): 12 kB Progress (1): 14 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-invoker-plugin/3.3.0/maven-invoker-plugin-3.3.0.pom (14 kB at 371 kB/s)
-Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/apache/maven/plugins/maven-invoker-plugin/3.3.0/maven-invoker-plugin-3.3.0.jar
-Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/apache/maven/plugins/maven-invoker-plugin/3.3.0/maven-invoker-plugin-3.3.0.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-invoker-plugin/3.3.0/maven-invoker-plugin-3.3.0.jar
-Progress (1): 3.8/135 kBProgress (1): 8.0/135 kBProgress (1): 12/135 kB Progress (1): 16/135 kBProgress (1): 21/135 kBProgress (1): 25/135 kBProgress (1): 29/135 kBProgress (1): 33/135 kBProgress (1): 38/135 kBProgress (1): 42/135 kBProgress (1): 46/135 kBProgress (1): 50/135 kBProgress (1): 54/135 kBProgress (1): 57/135 kBProgress (1): 62/135 kBProgress (1): 66/135 kBProgress (1): 70/135 kBProgress (1): 74/135 kBProgress (1): 78/135 kBProgress (1): 83/135 kBProgress (1): 87/135 kBProgress (1): 91/135 kBProgress (1): 95/135 kBProgress (1): 100/135 kBProgress (1): 104/135 kBProgress (1): 108/135 kBProgress (1): 112/135 kBProgress (1): 117/135 kBProgress (1): 121/135 kBProgress (1): 125/135 kBProgress (1): 129/135 kBProgress (1): 133/135 kBProgress (1): 135 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-invoker-plugin/3.3.0/maven-invoker-plugin-3.3.0.jar (135 kB at 2.2 MB/s)
+Progress (1): 749 B
+Progress (1): 2.1 kB
+Progress (1): 4.9 kB
+Progress (1): 9.1 kB
+Progress (1): 12 kB 
+Progress (1): 14 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-invoker-plugin/3.3.0/maven-invoker-plugin-3.3.0.pom (14 kB at 371 kB/s)
+Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/apache/maven/plugins/maven-invoker-plugin/3.3.0/maven-invoker-plugin-3.3.0.bbxservices
+Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/apache/maven/plugins/maven-invoker-plugin/3.3.0/maven-invoker-plugin-3.3.0.bbxservices
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-invoker-plugin/3.3.0/maven-invoker-plugin-3.3.0.bbxservices
+Progress (1): 3.8/135 kB
+Progress (1): 8.0/135 kB
+Progress (1): 12/135 kB 
+Progress (1): 16/135 kB
+Progress (1): 21/135 kB
+Progress (1): 25/135 kB
+Progress (1): 29/135 kB
+Progress (1): 33/135 kB
+Progress (1): 38/135 kB
+Progress (1): 42/135 kB
+Progress (1): 46/135 kB
+Progress (1): 50/135 kB
+Progress (1): 54/135 kB
+Progress (1): 57/135 kB
+Progress (1): 62/135 kB
+Progress (1): 66/135 kB
+Progress (1): 70/135 kB
+Progress (1): 74/135 kB
+Progress (1): 78/135 kB
+Progress (1): 83/135 kB
+Progress (1): 87/135 kB
+Progress (1): 91/135 kB
+Progress (1): 95/135 kB
+Progress (1): 100/135 kB
+Progress (1): 104/135 kB
+Progress (1): 108/135 kB
+Progress (1): 112/135 kB
+Progress (1): 117/135 kB
+Progress (1): 121/135 kB
+Progress (1): 125/135 kB
+Progress (1): 129/135 kB
+Progress (1): 133/135 kB
+Progress (1): 135 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-invoker-plugin/3.3.0/maven-invoker-plugin-3.3.0.bbxservices (135 kB at 2.2 MB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/codehaus/mojo/xml-maven-plugin/1.0.2/xml-maven-plugin-1.0.2.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/codehaus/mojo/xml-maven-plugin/1.0.2/xml-maven-plugin-1.0.2.pom
 Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/xml-maven-plugin/1.0.2/xml-maven-plugin-1.0.2.pom
-Progress (1): 1.1 kBProgress (1): 3.4 kBProgress (1): 6.5 kBProgress (1): 8.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/xml-maven-plugin/1.0.2/xml-maven-plugin-1.0.2.pom (8.6 kB at 186 kB/s)
+Progress (1): 1.1 kB
+Progress (1): 3.4 kB
+Progress (1): 6.5 kB
+Progress (1): 8.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/xml-maven-plugin/1.0.2/xml-maven-plugin-1.0.2.pom (8.6 kB at 186 kB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/codehaus/mojo/mojo-parent/40/mojo-parent-40.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/codehaus/mojo/mojo-parent/40/mojo-parent-40.pom
 Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/40/mojo-parent-40.pom
-Progress (1): 722 BProgress (1): 2.5 kBProgress (1): 5.5 kBProgress (1): 7.3 kBProgress (1): 9.7 kBProgress (1): 15 kB Progress (1): 19 kBProgress (1): 19 kBProgress (1): 22 kBProgress (1): 25 kBProgress (1): 30 kBProgress (1): 34 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/40/mojo-parent-40.pom (34 kB at 659 kB/s)
-Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/codehaus/mojo/xml-maven-plugin/1.0.2/xml-maven-plugin-1.0.2.jar
-Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/codehaus/mojo/xml-maven-plugin/1.0.2/xml-maven-plugin-1.0.2.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/xml-maven-plugin/1.0.2/xml-maven-plugin-1.0.2.jar
-Progress (1): 7.7/64 kBProgress (1): 16/64 kB Progress (1): 25/64 kBProgress (1): 41/64 kBProgress (1): 57/64 kBProgress (1): 64 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/xml-maven-plugin/1.0.2/xml-maven-plugin-1.0.2.jar (64 kB at 1.7 MB/s)
+Progress (1): 722 B
+Progress (1): 2.5 kB
+Progress (1): 5.5 kB
+Progress (1): 7.3 kB
+Progress (1): 9.7 kB
+Progress (1): 15 kB 
+Progress (1): 19 kB
+Progress (1): 19 kB
+Progress (1): 22 kB
+Progress (1): 25 kB
+Progress (1): 30 kB
+Progress (1): 34 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/40/mojo-parent-40.pom (34 kB at 659 kB/s)
+Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/codehaus/mojo/xml-maven-plugin/1.0.2/xml-maven-plugin-1.0.2.bbxservices
+Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/codehaus/mojo/xml-maven-plugin/1.0.2/xml-maven-plugin-1.0.2.bbxservices
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/xml-maven-plugin/1.0.2/xml-maven-plugin-1.0.2.bbxservices
+Progress (1): 7.7/64 kB
+Progress (1): 16/64 kB 
+Progress (1): 25/64 kB
+Progress (1): 41/64 kB
+Progress (1): 57/64 kB
+Progress (1): 64 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/xml-maven-plugin/1.0.2/xml-maven-plugin-1.0.2.bbxservices (64 kB at 1.7 MB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/codehaus/mojo/build-helper-maven-plugin/3.3.0/build-helper-maven-plugin-3.3.0.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/codehaus/mojo/build-helper-maven-plugin/3.3.0/build-helper-maven-plugin-3.3.0.pom
 Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/3.3.0/build-helper-maven-plugin-3.3.0.pom
-Progress (1): 1.0 kBProgress (1): 3.3 kBProgress (1): 5.9 kBProgress (1): 7.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/3.3.0/build-helper-maven-plugin-3.3.0.pom (7.4 kB at 151 kB/s)
+Progress (1): 1.0 kB
+Progress (1): 3.3 kB
+Progress (1): 5.9 kB
+Progress (1): 7.4 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/3.3.0/build-helper-maven-plugin-3.3.0.pom (7.4 kB at 151 kB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/codehaus/mojo/mojo-parent/65/mojo-parent-65.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/codehaus/mojo/mojo-parent/65/mojo-parent-65.pom
 Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/65/mojo-parent-65.pom
-Progress (1): 715 BProgress (1): 2.5 kBProgress (1): 5.9 kBProgress (1): 8.2 kBProgress (1): 11 kB Progress (1): 13 kBProgress (1): 18 kBProgress (1): 23 kBProgress (1): 25 kBProgress (1): 28 kBProgress (1): 33 kBProgress (1): 35 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/65/mojo-parent-65.pom (35 kB at 708 kB/s)
-Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/codehaus/mojo/build-helper-maven-plugin/3.3.0/build-helper-maven-plugin-3.3.0.jar
-Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/codehaus/mojo/build-helper-maven-plugin/3.3.0/build-helper-maven-plugin-3.3.0.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/3.3.0/build-helper-maven-plugin-3.3.0.jar
-Progress (1): 7.7/68 kBProgress (1): 12/68 kB Progress (1): 28/68 kBProgress (1): 44/68 kBProgress (1): 61/68 kBProgress (1): 68 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/3.3.0/build-helper-maven-plugin-3.3.0.jar (68 kB at 1.6 MB/s)
+Progress (1): 715 B
+Progress (1): 2.5 kB
+Progress (1): 5.9 kB
+Progress (1): 8.2 kB
+Progress (1): 11 kB 
+Progress (1): 13 kB
+Progress (1): 18 kB
+Progress (1): 23 kB
+Progress (1): 25 kB
+Progress (1): 28 kB
+Progress (1): 33 kB
+Progress (1): 35 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/65/mojo-parent-65.pom (35 kB at 708 kB/s)
+Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/codehaus/mojo/build-helper-maven-plugin/3.3.0/build-helper-maven-plugin-3.3.0.bbxservices
+Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/codehaus/mojo/build-helper-maven-plugin/3.3.0/build-helper-maven-plugin-3.3.0.bbxservices
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/3.3.0/build-helper-maven-plugin-3.3.0.bbxservices
+Progress (1): 7.7/68 kB
+Progress (1): 12/68 kB 
+Progress (1): 28/68 kB
+Progress (1): 44/68 kB
+Progress (1): 61/68 kB
+Progress (1): 68 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/3.3.0/build-helper-maven-plugin-3.3.0.bbxservices (68 kB at 1.6 MB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/codehaus/mojo/exec-maven-plugin/3.1.0/exec-maven-plugin-3.1.0.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/codehaus/mojo/exec-maven-plugin/3.1.0/exec-maven-plugin-3.1.0.pom
 Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/exec-maven-plugin/3.1.0/exec-maven-plugin-3.1.0.pom
-Progress (1): 1.1 kBProgress (1): 3.5 kBProgress (1): 6.9 kBProgress (1): 10 kB Progress (1): 13 kBProgress (1): 14 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/exec-maven-plugin/3.1.0/exec-maven-plugin-3.1.0.pom (14 kB at 278 kB/s)
+Progress (1): 1.1 kB
+Progress (1): 3.5 kB
+Progress (1): 6.9 kB
+Progress (1): 10 kB 
+Progress (1): 13 kB
+Progress (1): 14 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/exec-maven-plugin/3.1.0/exec-maven-plugin-3.1.0.pom (14 kB at 278 kB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/codehaus/mojo/mojo-parent/69/mojo-parent-69.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/codehaus/mojo/mojo-parent/69/mojo-parent-69.pom
 Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/69/mojo-parent-69.pom
-Progress (1): 715 BProgress (1): 2.5 kBProgress (1): 6.2 kBProgress (1): 7.9 kBProgress (1): 11 kB Progress (1): 13 kBProgress (1): 19 kBProgress (1): 23 kBProgress (1): 25 kBProgress (1): 29 kBProgress (1): 33 kBProgress (1): 35 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/69/mojo-parent-69.pom (35 kB at 694 kB/s)
-Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/codehaus/mojo/exec-maven-plugin/3.1.0/exec-maven-plugin-3.1.0.jar
-Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/codehaus/mojo/exec-maven-plugin/3.1.0/exec-maven-plugin-3.1.0.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/exec-maven-plugin/3.1.0/exec-maven-plugin-3.1.0.jar
-Progress (1): 7.7/73 kBProgress (1): 16/73 kB Progress (1): 32/73 kBProgress (1): 49/73 kBProgress (1): 57/73 kBProgress (1): 73 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/exec-maven-plugin/3.1.0/exec-maven-plugin-3.1.0.jar (73 kB at 1.5 MB/s)
+Progress (1): 715 B
+Progress (1): 2.5 kB
+Progress (1): 6.2 kB
+Progress (1): 7.9 kB
+Progress (1): 11 kB 
+Progress (1): 13 kB
+Progress (1): 19 kB
+Progress (1): 23 kB
+Progress (1): 25 kB
+Progress (1): 29 kB
+Progress (1): 33 kB
+Progress (1): 35 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/69/mojo-parent-69.pom (35 kB at 694 kB/s)
+Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/codehaus/mojo/exec-maven-plugin/3.1.0/exec-maven-plugin-3.1.0.bbxservices
+Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/codehaus/mojo/exec-maven-plugin/3.1.0/exec-maven-plugin-3.1.0.bbxservices
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/exec-maven-plugin/3.1.0/exec-maven-plugin-3.1.0.bbxservices
+Progress (1): 7.7/73 kB
+Progress (1): 16/73 kB 
+Progress (1): 32/73 kB
+Progress (1): 49/73 kB
+Progress (1): 57/73 kB
+Progress (1): 73 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/exec-maven-plugin/3.1.0/exec-maven-plugin-3.1.0.bbxservices (73 kB at 1.5 MB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/codehaus/mojo/sablecc-maven-plugin/2.2/sablecc-maven-plugin-2.2.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/codehaus/mojo/sablecc-maven-plugin/2.2/sablecc-maven-plugin-2.2.pom
 Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/sablecc-maven-plugin/2.2/sablecc-maven-plugin-2.2.pom
-Progress (1): 1.8 kBProgress (1): 1.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/sablecc-maven-plugin/2.2/sablecc-maven-plugin-2.2.pom (1.8 kB at 22 kB/s)
+Progress (1): 1.8 kB
+Progress (1): 1.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/sablecc-maven-plugin/2.2/sablecc-maven-plugin-2.2.pom (1.8 kB at 22 kB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/codehaus/mojo/mojo/16/mojo-16.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/codehaus/mojo/mojo/16/mojo-16.pom
 Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo/16/mojo-16.pom
-Progress (1): 1.7 kBProgress (1): 4.8 kBProgress (1): 8.1 kBProgress (1): 8.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo/16/mojo-16.pom (8.9 kB at 248 kB/s)
-Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/codehaus/mojo/sablecc-maven-plugin/2.2/sablecc-maven-plugin-2.2.jar
-Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/codehaus/mojo/sablecc-maven-plugin/2.2/sablecc-maven-plugin-2.2.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/sablecc-maven-plugin/2.2/sablecc-maven-plugin-2.2.jar
-Progress (1): 5.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/sablecc-maven-plugin/2.2/sablecc-maven-plugin-2.2.jar (5.3 kB at 155 kB/s)
+Progress (1): 1.7 kB
+Progress (1): 4.8 kB
+Progress (1): 8.1 kB
+Progress (1): 8.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo/16/mojo-16.pom (8.9 kB at 248 kB/s)
+Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/codehaus/mojo/sablecc-maven-plugin/2.2/sablecc-maven-plugin-2.2.bbxservices
+Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/codehaus/mojo/sablecc-maven-plugin/2.2/sablecc-maven-plugin-2.2.bbxservices
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/sablecc-maven-plugin/2.2/sablecc-maven-plugin-2.2.bbxservices
+Progress (1): 5.3 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/sablecc-maven-plugin/2.2/sablecc-maven-plugin-2.2.bbxservices (5.3 kB at 155 kB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/apache/maven/plugins/maven-project-info-reports-plugin/3.4.1/maven-project-info-reports-plugin-3.4.1.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/apache/maven/plugins/maven-project-info-reports-plugin/3.4.1/maven-project-info-reports-plugin-3.4.1.pom
 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-project-info-reports-plugin/3.4.1/maven-project-info-reports-plugin-3.4.1.pom
-Progress (1): 746 BProgress (1): 2.4 kBProgress (1): 4.4 kBProgress (1): 7.9 kBProgress (1): 16 kB Progress (1): 18 kBProgress (1): 20 kBProgress (1): 21 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-project-info-reports-plugin/3.4.1/maven-project-info-reports-plugin-3.4.1.pom (21 kB at 374 kB/s)
-Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/apache/maven/plugins/maven-project-info-reports-plugin/3.4.1/maven-project-info-reports-plugin-3.4.1.jar
-Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/apache/maven/plugins/maven-project-info-reports-plugin/3.4.1/maven-project-info-reports-plugin-3.4.1.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-project-info-reports-plugin/3.4.1/maven-project-info-reports-plugin-3.4.1.jar
-Progress (1): 7.7/294 kBProgress (1): 8.2/294 kBProgress (1): 25/294 kB Progress (1): 41/294 kBProgress (1): 57/294 kBProgress (1): 66/294 kBProgress (1): 82/294 kBProgress (1): 90/294 kBProgress (1): 106/294 kBProgress (1): 115/294 kBProgress (1): 123/294 kBProgress (1): 139/294 kBProgress (1): 147/294 kBProgress (1): 156/294 kBProgress (1): 164/294 kBProgress (1): 172/294 kBProgress (1): 188/294 kBProgress (1): 197/294 kBProgress (1): 205/294 kBProgress (1): 213/294 kBProgress (1): 221/294 kBProgress (1): 238/294 kBProgress (1): 254/294 kBProgress (1): 262/294 kBProgress (1): 270/294 kBProgress (1): 287/294 kBProgress (1): 294 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-project-info-reports-plugin/3.4.1/maven-project-info-reports-plugin-3.4.1.jar (294 kB at 4.8 MB/s)
+Progress (1): 746 B
+Progress (1): 2.4 kB
+Progress (1): 4.4 kB
+Progress (1): 7.9 kB
+Progress (1): 16 kB 
+Progress (1): 18 kB
+Progress (1): 20 kB
+Progress (1): 21 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-project-info-reports-plugin/3.4.1/maven-project-info-reports-plugin-3.4.1.pom (21 kB at 374 kB/s)
+Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/apache/maven/plugins/maven-project-info-reports-plugin/3.4.1/maven-project-info-reports-plugin-3.4.1.bbxservices
+Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/apache/maven/plugins/maven-project-info-reports-plugin/3.4.1/maven-project-info-reports-plugin-3.4.1.bbxservices
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-project-info-reports-plugin/3.4.1/maven-project-info-reports-plugin-3.4.1.bbxservices
+Progress (1): 7.7/294 kB
+Progress (1): 8.2/294 kB
+Progress (1): 25/294 kB 
+Progress (1): 41/294 kB
+Progress (1): 57/294 kB
+Progress (1): 66/294 kB
+Progress (1): 82/294 kB
+Progress (1): 90/294 kB
+Progress (1): 106/294 kB
+Progress (1): 115/294 kB
+Progress (1): 123/294 kB
+Progress (1): 139/294 kB
+Progress (1): 147/294 kB
+Progress (1): 156/294 kB
+Progress (1): 164/294 kB
+Progress (1): 172/294 kB
+Progress (1): 188/294 kB
+Progress (1): 197/294 kB
+Progress (1): 205/294 kB
+Progress (1): 213/294 kB
+Progress (1): 221/294 kB
+Progress (1): 238/294 kB
+Progress (1): 254/294 kB
+Progress (1): 262/294 kB
+Progress (1): 270/294 kB
+Progress (1): 287/294 kB
+Progress (1): 294 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-project-info-reports-plugin/3.4.1/maven-project-info-reports-plugin-3.4.1.bbxservices (294 kB at 4.8 MB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/apache/maven/plugins/maven-archetype-plugin/3.2.1/maven-archetype-plugin-3.2.1.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/apache/maven/plugins/maven-archetype-plugin/3.2.1/maven-archetype-plugin-3.2.1.pom
 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/3.2.1/maven-archetype-plugin-3.2.1.pom
-Progress (1): 779 BProgress (1): 2.6 kBProgress (1): 6.3 kBProgress (1): 9.5 kBProgress (1): 12 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/3.2.1/maven-archetype-plugin-3.2.1.pom (12 kB at 268 kB/s)
+Progress (1): 779 B
+Progress (1): 2.6 kB
+Progress (1): 6.3 kB
+Progress (1): 9.5 kB
+Progress (1): 12 kB 
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/3.2.1/maven-archetype-plugin-3.2.1.pom (12 kB at 268 kB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/apache/maven/archetype/maven-archetype/3.2.1/maven-archetype-3.2.1.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/apache/maven/archetype/maven-archetype/3.2.1/maven-archetype-3.2.1.pom
 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/maven-archetype/3.2.1/maven-archetype-3.2.1.pom
-Progress (1): 769 BProgress (1): 2.1 kBProgress (1): 4.0 kBProgress (1): 10 kB Progress (1): 13 kBProgress (1): 13 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/maven-archetype/3.2.1/maven-archetype-3.2.1.pom (13 kB at 295 kB/s)
-Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/apache/maven/plugins/maven-archetype-plugin/3.2.1/maven-archetype-plugin-3.2.1.jar
-Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/apache/maven/plugins/maven-archetype-plugin/3.2.1/maven-archetype-plugin-3.2.1.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/3.2.1/maven-archetype-plugin-3.2.1.jar
-Progress (1): 7.7/101 kBProgress (1): 12/101 kB Progress (1): 28/101 kBProgress (1): 44/101 kBProgress (1): 61/101 kBProgress (1): 77/101 kBProgress (1): 93/101 kBProgress (1): 101 kB                       Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/3.2.1/maven-archetype-plugin-3.2.1.jar (101 kB at 2.6 MB/s)
+Progress (1): 769 B
+Progress (1): 2.1 kB
+Progress (1): 4.0 kB
+Progress (1): 10 kB 
+Progress (1): 13 kB
+Progress (1): 13 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/maven-archetype/3.2.1/maven-archetype-3.2.1.pom (13 kB at 295 kB/s)
+Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/apache/maven/plugins/maven-archetype-plugin/3.2.1/maven-archetype-plugin-3.2.1.bbxservices
+Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/apache/maven/plugins/maven-archetype-plugin/3.2.1/maven-archetype-plugin-3.2.1.bbxservices
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/3.2.1/maven-archetype-plugin-3.2.1.bbxservices
+Progress (1): 7.7/101 kB
+Progress (1): 12/101 kB 
+Progress (1): 28/101 kB
+Progress (1): 44/101 kB
+Progress (1): 61/101 kB
+Progress (1): 77/101 kB
+Progress (1): 93/101 kB
+Progress (1): 101 kB   
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/3.2.1/maven-archetype-plugin-3.2.1.bbxservices (101 kB at 2.6 MB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/openclover/clover-maven-plugin/4.4.1/clover-maven-plugin-4.4.1.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/openclover/clover-maven-plugin/4.4.1/clover-maven-plugin-4.4.1.pom
 Downloading from central: https://repo.maven.apache.org/maven2/org/openclover/clover-maven-plugin/4.4.1/clover-maven-plugin-4.4.1.pom
-Progress (1): 776 BProgress (1): 2.5 kBProgress (1): 7.1 kBProgress (1): 12 kB Progress (1): 16 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/openclover/clover-maven-plugin/4.4.1/clover-maven-plugin-4.4.1.pom (16 kB at 362 kB/s)
-Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/openclover/clover-maven-plugin/4.4.1/clover-maven-plugin-4.4.1.jar
-Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/openclover/clover-maven-plugin/4.4.1/clover-maven-plugin-4.4.1.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/openclover/clover-maven-plugin/4.4.1/clover-maven-plugin-4.4.1.jar
-Progress (1): 7.7/153 kBProgress (1): 8.2/153 kBProgress (1): 25/153 kB Progress (1): 41/153 kBProgress (1): 57/153 kBProgress (1): 74/153 kBProgress (1): 90/153 kBProgress (1): 106/153 kBProgress (1): 123/153 kBProgress (1): 139/153 kBProgress (1): 153 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/openclover/clover-maven-plugin/4.4.1/clover-maven-plugin-4.4.1.jar (153 kB at 3.2 MB/s)
+Progress (1): 776 B
+Progress (1): 2.5 kB
+Progress (1): 7.1 kB
+Progress (1): 12 kB 
+Progress (1): 16 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/openclover/clover-maven-plugin/4.4.1/clover-maven-plugin-4.4.1.pom (16 kB at 362 kB/s)
+Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/openclover/clover-maven-plugin/4.4.1/clover-maven-plugin-4.4.1.bbxservices
+Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/openclover/clover-maven-plugin/4.4.1/clover-maven-plugin-4.4.1.bbxservices
+Downloading from central: https://repo.maven.apache.org/maven2/org/openclover/clover-maven-plugin/4.4.1/clover-maven-plugin-4.4.1.bbxservices
+Progress (1): 7.7/153 kB
+Progress (1): 8.2/153 kB
+Progress (1): 25/153 kB 
+Progress (1): 41/153 kB
+Progress (1): 57/153 kB
+Progress (1): 74/153 kB
+Progress (1): 90/153 kB
+Progress (1): 106/153 kB
+Progress (1): 123/153 kB
+Progress (1): 139/153 kB
+Progress (1): 153 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/openclover/clover-maven-plugin/4.4.1/clover-maven-plugin-4.4.1.bbxservices (153 kB at 3.2 MB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/sonarsource/scanner/maven/sonar-maven-plugin/3.9.1.2184/sonar-maven-plugin-3.9.1.2184.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/sonarsource/scanner/maven/sonar-maven-plugin/3.9.1.2184/sonar-maven-plugin-3.9.1.2184.pom
 Downloading from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/maven/sonar-maven-plugin/3.9.1.2184/sonar-maven-plugin-3.9.1.2184.pom
-Progress (1): 1.1 kBProgress (1): 2.9 kBProgress (1): 6.6 kBProgress (1): 10 kB Progress (1): 12 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/maven/sonar-maven-plugin/3.9.1.2184/sonar-maven-plugin-3.9.1.2184.pom (12 kB at 207 kB/s)
+Progress (1): 1.1 kB
+Progress (1): 2.9 kB
+Progress (1): 6.6 kB
+Progress (1): 10 kB 
+Progress (1): 12 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/maven/sonar-maven-plugin/3.9.1.2184/sonar-maven-plugin-3.9.1.2184.pom (12 kB at 207 kB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/sonarsource/parent/parent/59.0.29/parent-59.0.29.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/sonarsource/parent/parent/59.0.29/parent-59.0.29.pom
 Downloading from central: https://repo.maven.apache.org/maven2/org/sonarsource/parent/parent/59.0.29/parent-59.0.29.pom
-Progress (1): 947 BProgress (1): 3.1 kBProgress (1): 5.0 kBProgress (1): 7.0 kBProgress (1): 9.7 kBProgress (1): 12 kB Progress (1): 17 kBProgress (1): 20 kBProgress (1): 23 kBProgress (1): 25 kBProgress (1): 29 kBProgress (1): 31 kBProgress (1): 32 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/sonarsource/parent/parent/59.0.29/parent-59.0.29.pom (32 kB at 634 kB/s)
-Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/sonarsource/scanner/maven/sonar-maven-plugin/3.9.1.2184/sonar-maven-plugin-3.9.1.2184.jar
-Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/sonarsource/scanner/maven/sonar-maven-plugin/3.9.1.2184/sonar-maven-plugin-3.9.1.2184.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/maven/sonar-maven-plugin/3.9.1.2184/sonar-maven-plugin-3.9.1.2184.jar
-Progress (1): 7.7/50 kBProgress (1): 12/50 kB Progress (1): 28/50 kBProgress (1): 44/50 kBProgress (1): 50 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/maven/sonar-maven-plugin/3.9.1.2184/sonar-maven-plugin-3.9.1.2184.jar (50 kB at 1.2 MB/s)
+Progress (1): 947 B
+Progress (1): 3.1 kB
+Progress (1): 5.0 kB
+Progress (1): 7.0 kB
+Progress (1): 9.7 kB
+Progress (1): 12 kB 
+Progress (1): 17 kB
+Progress (1): 20 kB
+Progress (1): 23 kB
+Progress (1): 25 kB
+Progress (1): 29 kB
+Progress (1): 31 kB
+Progress (1): 32 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/sonarsource/parent/parent/59.0.29/parent-59.0.29.pom (32 kB at 634 kB/s)
+Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/sonarsource/scanner/maven/sonar-maven-plugin/3.9.1.2184/sonar-maven-plugin-3.9.1.2184.bbxservices
+Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/sonarsource/scanner/maven/sonar-maven-plugin/3.9.1.2184/sonar-maven-plugin-3.9.1.2184.bbxservices
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/maven/sonar-maven-plugin/3.9.1.2184/sonar-maven-plugin-3.9.1.2184.bbxservices
+Progress (1): 7.7/50 kB
+Progress (1): 12/50 kB 
+Progress (1): 28/50 kB
+Progress (1): 44/50 kB
+Progress (1): 50 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/maven/sonar-maven-plugin/3.9.1.2184/sonar-maven-plugin-3.9.1.2184.bbxservices (50 kB at 1.2 MB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/apache/maven/plugins/maven-gpg-plugin/3.1.0/maven-gpg-plugin-3.1.0.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/apache/maven/plugins/maven-gpg-plugin/3.1.0/maven-gpg-plugin-3.1.0.pom
 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-gpg-plugin/3.1.0/maven-gpg-plugin-3.1.0.pom
-Progress (1): 1.1 kBProgress (1): 3.6 kBProgress (1): 7.4 kBProgress (1): 13 kB Progress (1): 13 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-gpg-plugin/3.1.0/maven-gpg-plugin-3.1.0.pom (13 kB at 264 kB/s)
-Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/apache/maven/plugins/maven-gpg-plugin/3.1.0/maven-gpg-plugin-3.1.0.jar
-Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/apache/maven/plugins/maven-gpg-plugin/3.1.0/maven-gpg-plugin-3.1.0.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-gpg-plugin/3.1.0/maven-gpg-plugin-3.1.0.jar
-Progress (1): 7.7/58 kBProgress (1): 16/58 kB Progress (1): 25/58 kBProgress (1): 41/58 kBProgress (1): 57/58 kBProgress (1): 58 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-gpg-plugin/3.1.0/maven-gpg-plugin-3.1.0.jar (58 kB at 1.3 MB/s)
+Progress (1): 1.1 kB
+Progress (1): 3.6 kB
+Progress (1): 7.4 kB
+Progress (1): 13 kB 
+Progress (1): 13 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-gpg-plugin/3.1.0/maven-gpg-plugin-3.1.0.pom (13 kB at 264 kB/s)
+Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/apache/maven/plugins/maven-gpg-plugin/3.1.0/maven-gpg-plugin-3.1.0.bbxservices
+Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/apache/maven/plugins/maven-gpg-plugin/3.1.0/maven-gpg-plugin-3.1.0.bbxservices
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-gpg-plugin/3.1.0/maven-gpg-plugin-3.1.0.bbxservices
+Progress (1): 7.7/58 kB
+Progress (1): 16/58 kB 
+Progress (1): 25/58 kB
+Progress (1): 41/58 kB
+Progress (1): 57/58 kB
+Progress (1): 58 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-gpg-plugin/3.1.0/maven-gpg-plugin-3.1.0.bbxservices (58 kB at 1.3 MB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/apache/maven/plugins/maven-javadoc-plugin/3.4.1/maven-javadoc-plugin-3.4.1.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/apache/maven/plugins/maven-javadoc-plugin/3.4.1/maven-javadoc-plugin-3.4.1.pom
 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.4.1/maven-javadoc-plugin-3.4.1.pom
-Progress (1): 766 BProgress (1): 2.2 kBProgress (1): 4.3 kBProgress (1): 8.3 kBProgress (1): 13 kB Progress (1): 16 kBProgress (1): 18 kBProgress (1): 21 kBProgress (1): 21 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.4.1/maven-javadoc-plugin-3.4.1.pom (21 kB at 486 kB/s)
-Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/apache/maven/plugins/maven-javadoc-plugin/3.4.1/maven-javadoc-plugin-3.4.1.jar
-Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/apache/maven/plugins/maven-javadoc-plugin/3.4.1/maven-javadoc-plugin-3.4.1.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.4.1/maven-javadoc-plugin-3.4.1.jar
-Progress (1): 7.7/523 kBProgress (1): 8.2/523 kBProgress (1): 25/523 kB Progress (1): 41/523 kBProgress (1): 57/523 kBProgress (1): 74/523 kBProgress (1): 90/523 kBProgress (1): 106/523 kBProgress (1): 123/523 kBProgress (1): 139/523 kBProgress (1): 147/523 kBProgress (1): 156/523 kBProgress (1): 164/523 kBProgress (1): 172/523 kBProgress (1): 180/523 kBProgress (1): 188/523 kBProgress (1): 205/523 kBProgress (1): 213/523 kBProgress (1): 221/523 kBProgress (1): 238/523 kBProgress (1): 254/523 kBProgress (1): 270/523 kBProgress (1): 287/523 kBProgress (1): 303/523 kBProgress (1): 319/523 kBProgress (1): 336/523 kBProgress (1): 352/523 kBProgress (1): 369/523 kBProgress (1): 385/523 kBProgress (1): 401/523 kBProgress (1): 418/523 kBProgress (1): 434/523 kBProgress (1): 451/523 kBProgress (1): 467/523 kBProgress (1): 483/523 kBProgress (1): 500/523 kBProgress (1): 516/523 kBProgress (1): 523 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.4.1/maven-javadoc-plugin-3.4.1.jar (523 kB at 7.7 MB/s)
+Progress (1): 766 B
+Progress (1): 2.2 kB
+Progress (1): 4.3 kB
+Progress (1): 8.3 kB
+Progress (1): 13 kB 
+Progress (1): 16 kB
+Progress (1): 18 kB
+Progress (1): 21 kB
+Progress (1): 21 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.4.1/maven-javadoc-plugin-3.4.1.pom (21 kB at 486 kB/s)
+Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/apache/maven/plugins/maven-javadoc-plugin/3.4.1/maven-javadoc-plugin-3.4.1.bbxservices
+Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/apache/maven/plugins/maven-javadoc-plugin/3.4.1/maven-javadoc-plugin-3.4.1.bbxservices
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.4.1/maven-javadoc-plugin-3.4.1.bbxservices
+Progress (1): 7.7/523 kB
+Progress (1): 8.2/523 kB
+Progress (1): 25/523 kB 
+Progress (1): 41/523 kB
+Progress (1): 57/523 kB
+Progress (1): 74/523 kB
+Progress (1): 90/523 kB
+Progress (1): 106/523 kB
+Progress (1): 123/523 kB
+Progress (1): 139/523 kB
+Progress (1): 147/523 kB
+Progress (1): 156/523 kB
+Progress (1): 164/523 kB
+Progress (1): 172/523 kB
+Progress (1): 180/523 kB
+Progress (1): 188/523 kB
+Progress (1): 205/523 kB
+Progress (1): 213/523 kB
+Progress (1): 221/523 kB
+Progress (1): 238/523 kB
+Progress (1): 254/523 kB
+Progress (1): 270/523 kB
+Progress (1): 287/523 kB
+Progress (1): 303/523 kB
+Progress (1): 319/523 kB
+Progress (1): 336/523 kB
+Progress (1): 352/523 kB
+Progress (1): 369/523 kB
+Progress (1): 385/523 kB
+Progress (1): 401/523 kB
+Progress (1): 418/523 kB
+Progress (1): 434/523 kB
+Progress (1): 451/523 kB
+Progress (1): 467/523 kB
+Progress (1): 483/523 kB
+Progress (1): 500/523 kB
+Progress (1): 516/523 kB
+Progress (1): 523 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.4.1/maven-javadoc-plugin-3.4.1.bbxservices (523 kB at 7.7 MB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/jacoco/jacoco-maven-plugin/0.8.8/jacoco-maven-plugin-0.8.8.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/jacoco/jacoco-maven-plugin/0.8.8/jacoco-maven-plugin-0.8.8.pom
 Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.8.8/jacoco-maven-plugin-0.8.8.pom
-Progress (1): 876 BProgress (1): 3.3 kBProgress (1): 3.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.8.8/jacoco-maven-plugin-0.8.8.pom (3.8 kB at 81 kB/s)
+Progress (1): 876 B
+Progress (1): 3.3 kB
+Progress (1): 3.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.8.8/jacoco-maven-plugin-0.8.8.pom (3.8 kB at 81 kB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/jacoco/org.jacoco.build/0.8.8/org.jacoco.build-0.8.8.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/jacoco/org.jacoco.build/0.8.8/org.jacoco.build-0.8.8.pom
 Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.build/0.8.8/org.jacoco.build-0.8.8.pom
-Progress (1): 799 BProgress (1): 2.9 kBProgress (1): 4.7 kBProgress (1): 8.2 kBProgress (1): 12 kB Progress (1): 16 kBProgress (1): 19 kBProgress (1): 22 kBProgress (1): 25 kBProgress (1): 28 kBProgress (1): 32 kBProgress (1): 37 kBProgress (1): 44 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.build/0.8.8/org.jacoco.build-0.8.8.pom (44 kB at 927 kB/s)
-Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/jacoco/jacoco-maven-plugin/0.8.8/jacoco-maven-plugin-0.8.8.jar
-Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/jacoco/jacoco-maven-plugin/0.8.8/jacoco-maven-plugin-0.8.8.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.8.8/jacoco-maven-plugin-0.8.8.jar
-Progress (1): 7.7/56 kBProgress (1): 16/56 kB Progress (1): 25/56 kBProgress (1): 41/56 kBProgress (1): 56 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.8.8/jacoco-maven-plugin-0.8.8.jar (56 kB at 1.4 MB/s)
+Progress (1): 799 B
+Progress (1): 2.9 kB
+Progress (1): 4.7 kB
+Progress (1): 8.2 kB
+Progress (1): 12 kB 
+Progress (1): 16 kB
+Progress (1): 19 kB
+Progress (1): 22 kB
+Progress (1): 25 kB
+Progress (1): 28 kB
+Progress (1): 32 kB
+Progress (1): 37 kB
+Progress (1): 44 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.build/0.8.8/org.jacoco.build-0.8.8.pom (44 kB at 927 kB/s)
+Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/jacoco/jacoco-maven-plugin/0.8.8/jacoco-maven-plugin-0.8.8.bbxservices
+Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/jacoco/jacoco-maven-plugin/0.8.8/jacoco-maven-plugin-0.8.8.bbxservices
+Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.8.8/jacoco-maven-plugin-0.8.8.bbxservices
+Progress (1): 7.7/56 kB
+Progress (1): 16/56 kB 
+Progress (1): 25/56 kB
+Progress (1): 41/56 kB
+Progress (1): 56 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.8.8/jacoco-maven-plugin-0.8.8.bbxservices (56 kB at 1.4 MB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/com/github/searls/jasmine-maven-plugin/3.0-beta-02/jasmine-maven-plugin-3.0-beta-02.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/com/github/searls/jasmine-maven-plugin/3.0-beta-02/jasmine-maven-plugin-3.0-beta-02.pom
 Downloading from central: https://repo.maven.apache.org/maven2/com/github/searls/jasmine-maven-plugin/3.0-beta-02/jasmine-maven-plugin-3.0-beta-02.pom
-Progress (1): 932 BProgress (1): 3.7 kBProgress (1): 5.7 kBProgress (1): 9.7 kBProgress (1): 13 kB Progress (1): 17 kBProgress (1): 21 kBProgress (1): 25 kBProgress (1): 25 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/com/github/searls/jasmine-maven-plugin/3.0-beta-02/jasmine-maven-plugin-3.0-beta-02.pom (25 kB at 484 kB/s)
-Downloading from atlassian-public: https://packages.atlassian.com/maven-public/com/github/searls/jasmine-maven-plugin/3.0-beta-02/jasmine-maven-plugin-3.0-beta-02.jar
-Downloading from xwiki-releases: https://maven.xwiki.org/releases/com/github/searls/jasmine-maven-plugin/3.0-beta-02/jasmine-maven-plugin-3.0-beta-02.jar
-Downloading from central: https://repo.maven.apache.org/maven2/com/github/searls/jasmine-maven-plugin/3.0-beta-02/jasmine-maven-plugin-3.0-beta-02.jar
-Progress (1): 7.7/140 kBProgress (1): 16/140 kB Progress (1): 25/140 kBProgress (1): 41/140 kBProgress (1): 57/140 kBProgress (1): 74/140 kBProgress (1): 90/140 kBProgress (1): 98/140 kBProgress (1): 115/140 kBProgress (1): 131/140 kBProgress (1): 140 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/com/github/searls/jasmine-maven-plugin/3.0-beta-02/jasmine-maven-plugin-3.0-beta-02.jar (140 kB at 2.7 MB/s)
+Progress (1): 932 B
+Progress (1): 3.7 kB
+Progress (1): 5.7 kB
+Progress (1): 9.7 kB
+Progress (1): 13 kB 
+Progress (1): 17 kB
+Progress (1): 21 kB
+Progress (1): 25 kB
+Progress (1): 25 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/searls/jasmine-maven-plugin/3.0-beta-02/jasmine-maven-plugin-3.0-beta-02.pom (25 kB at 484 kB/s)
+Downloading from atlassian-public: https://packages.atlassian.com/maven-public/com/github/searls/jasmine-maven-plugin/3.0-beta-02/jasmine-maven-plugin-3.0-beta-02.bbxservices
+Downloading from xwiki-releases: https://maven.xwiki.org/releases/com/github/searls/jasmine-maven-plugin/3.0-beta-02/jasmine-maven-plugin-3.0-beta-02.bbxservices
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/searls/jasmine-maven-plugin/3.0-beta-02/jasmine-maven-plugin-3.0-beta-02.bbxservices
+Progress (1): 7.7/140 kB
+Progress (1): 16/140 kB 
+Progress (1): 25/140 kB
+Progress (1): 41/140 kB
+Progress (1): 57/140 kB
+Progress (1): 74/140 kB
+Progress (1): 90/140 kB
+Progress (1): 98/140 kB
+Progress (1): 115/140 kB
+Progress (1): 131/140 kB
+Progress (1): 140 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/searls/jasmine-maven-plugin/3.0-beta-02/jasmine-maven-plugin-3.0-beta-02.bbxservices (140 kB at 2.7 MB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/jvnet/jaxb2/maven2/maven-jaxb2-plugin/0.15.1/maven-jaxb2-plugin-0.15.1.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/jvnet/jaxb2/maven2/maven-jaxb2-plugin/0.15.1/maven-jaxb2-plugin-0.15.1.pom
 Downloading from central: https://repo.maven.apache.org/maven2/org/jvnet/jaxb2/maven2/maven-jaxb2-plugin/0.15.1/maven-jaxb2-plugin-0.15.1.pom
-Progress (1): 1.6 kBProgress (1): 3.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/jvnet/jaxb2/maven2/maven-jaxb2-plugin/0.15.1/maven-jaxb2-plugin-0.15.1.pom (3.0 kB at 69 kB/s)
+Progress (1): 1.6 kB
+Progress (1): 3.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jvnet/jaxb2/maven2/maven-jaxb2-plugin/0.15.1/maven-jaxb2-plugin-0.15.1.pom (3.0 kB at 69 kB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/jvnet/jaxb2/maven2/maven-jaxb2-plugin-project/0.15.1/maven-jaxb2-plugin-project-0.15.1.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/jvnet/jaxb2/maven2/maven-jaxb2-plugin-project/0.15.1/maven-jaxb2-plugin-project-0.15.1.pom
 Downloading from central: https://repo.maven.apache.org/maven2/org/jvnet/jaxb2/maven2/maven-jaxb2-plugin-project/0.15.1/maven-jaxb2-plugin-project-0.15.1.pom
-Progress (1): 936 BProgress (1): 2.7 kBProgress (1): 5.5 kBProgress (1): 8.7 kBProgress (1): 14 kB Progress (1): 16 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/jvnet/jaxb2/maven2/maven-jaxb2-plugin-project/0.15.1/maven-jaxb2-plugin-project-0.15.1.pom (16 kB at 331 kB/s)
-Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/jvnet/jaxb2/maven2/maven-jaxb2-plugin/0.15.1/maven-jaxb2-plugin-0.15.1.jar
-Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/jvnet/jaxb2/maven2/maven-jaxb2-plugin/0.15.1/maven-jaxb2-plugin-0.15.1.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/jvnet/jaxb2/maven2/maven-jaxb2-plugin/0.15.1/maven-jaxb2-plugin-0.15.1.jar
-Progress (1): 7.7/28 kBProgress (1): 12/28 kB Progress (1): 28 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/jvnet/jaxb2/maven2/maven-jaxb2-plugin/0.15.1/maven-jaxb2-plugin-0.15.1.jar (28 kB at 534 kB/s)
+Progress (1): 936 B
+Progress (1): 2.7 kB
+Progress (1): 5.5 kB
+Progress (1): 8.7 kB
+Progress (1): 14 kB 
+Progress (1): 16 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jvnet/jaxb2/maven2/maven-jaxb2-plugin-project/0.15.1/maven-jaxb2-plugin-project-0.15.1.pom (16 kB at 331 kB/s)
+Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/jvnet/jaxb2/maven2/maven-jaxb2-plugin/0.15.1/maven-jaxb2-plugin-0.15.1.bbxservices
+Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/jvnet/jaxb2/maven2/maven-jaxb2-plugin/0.15.1/maven-jaxb2-plugin-0.15.1.bbxservices
+Downloading from central: https://repo.maven.apache.org/maven2/org/jvnet/jaxb2/maven2/maven-jaxb2-plugin/0.15.1/maven-jaxb2-plugin-0.15.1.bbxservices
+Progress (1): 7.7/28 kB
+Progress (1): 12/28 kB 
+Progress (1): 28 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jvnet/jaxb2/maven2/maven-jaxb2-plugin/0.15.1/maven-jaxb2-plugin-0.15.1.bbxservices (28 kB at 534 kB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/net/alchim31/maven/yuicompressor-maven-plugin/1.5.1/yuicompressor-maven-plugin-1.5.1.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/net/alchim31/maven/yuicompressor-maven-plugin/1.5.1/yuicompressor-maven-plugin-1.5.1.pom
 Downloading from central: https://repo.maven.apache.org/maven2/net/alchim31/maven/yuicompressor-maven-plugin/1.5.1/yuicompressor-maven-plugin-1.5.1.pom
-Progress (1): 984 BProgress (1): 3.0 kBProgress (1): 6.9 kBProgress (1): 9.2 kBProgress (1): 12 kB Progress (1): 14 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/net/alchim31/maven/yuicompressor-maven-plugin/1.5.1/yuicompressor-maven-plugin-1.5.1.pom (14 kB at 310 kB/s)
-Downloading from atlassian-public: https://packages.atlassian.com/maven-public/net/alchim31/maven/yuicompressor-maven-plugin/1.5.1/yuicompressor-maven-plugin-1.5.1.jar
-Downloading from xwiki-releases: https://maven.xwiki.org/releases/net/alchim31/maven/yuicompressor-maven-plugin/1.5.1/yuicompressor-maven-plugin-1.5.1.jar
-Downloading from central: https://repo.maven.apache.org/maven2/net/alchim31/maven/yuicompressor-maven-plugin/1.5.1/yuicompressor-maven-plugin-1.5.1.jar
-Progress (1): 7.7/48 kBProgress (1): 16/48 kB Progress (1): 25/48 kBProgress (1): 41/48 kBProgress (1): 48 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/net/alchim31/maven/yuicompressor-maven-plugin/1.5.1/yuicompressor-maven-plugin-1.5.1.jar (48 kB at 1.1 MB/s)
+Progress (1): 984 B
+Progress (1): 3.0 kB
+Progress (1): 6.9 kB
+Progress (1): 9.2 kB
+Progress (1): 12 kB 
+Progress (1): 14 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/net/alchim31/maven/yuicompressor-maven-plugin/1.5.1/yuicompressor-maven-plugin-1.5.1.pom (14 kB at 310 kB/s)
+Downloading from atlassian-public: https://packages.atlassian.com/maven-public/net/alchim31/maven/yuicompressor-maven-plugin/1.5.1/yuicompressor-maven-plugin-1.5.1.bbxservices
+Downloading from xwiki-releases: https://maven.xwiki.org/releases/net/alchim31/maven/yuicompressor-maven-plugin/1.5.1/yuicompressor-maven-plugin-1.5.1.bbxservices
+Downloading from central: https://repo.maven.apache.org/maven2/net/alchim31/maven/yuicompressor-maven-plugin/1.5.1/yuicompressor-maven-plugin-1.5.1.bbxservices
+Progress (1): 7.7/48 kB
+Progress (1): 16/48 kB 
+Progress (1): 25/48 kB
+Progress (1): 41/48 kB
+Progress (1): 48 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/net/alchim31/maven/yuicompressor-maven-plugin/1.5.1/yuicompressor-maven-plugin-1.5.1.bbxservices (48 kB at 1.1 MB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/com/github/blutorange/closure-compiler-maven-plugin/2.24.0/closure-compiler-maven-plugin-2.24.0.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/com/github/blutorange/closure-compiler-maven-plugin/2.24.0/closure-compiler-maven-plugin-2.24.0.pom
 Downloading from central: https://repo.maven.apache.org/maven2/com/github/blutorange/closure-compiler-maven-plugin/2.24.0/closure-compiler-maven-plugin-2.24.0.pom
-Progress (1): 1.0 kBProgress (1): 3.4 kBProgress (1): 7.0 kBProgress (1): 12 kB Progress (1): 16 kBProgress (1): 20 kBProgress (1): 20 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/com/github/blutorange/closure-compiler-maven-plugin/2.24.0/closure-compiler-maven-plugin-2.24.0.pom (20 kB at 345 kB/s)
-Downloading from atlassian-public: https://packages.atlassian.com/maven-public/com/github/blutorange/closure-compiler-maven-plugin/2.24.0/closure-compiler-maven-plugin-2.24.0.jar
-Downloading from xwiki-releases: https://maven.xwiki.org/releases/com/github/blutorange/closure-compiler-maven-plugin/2.24.0/closure-compiler-maven-plugin-2.24.0.jar
-Downloading from central: https://repo.maven.apache.org/maven2/com/github/blutorange/closure-compiler-maven-plugin/2.24.0/closure-compiler-maven-plugin-2.24.0.jar
-Progress (1): 7.7/95 kBProgress (1): 12/95 kB Progress (1): 28/95 kBProgress (1): 44/95 kBProgress (1): 61/95 kBProgress (1): 77/95 kBProgress (1): 93/95 kBProgress (1): 95 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/com/github/blutorange/closure-compiler-maven-plugin/2.24.0/closure-compiler-maven-plugin-2.24.0.jar (95 kB at 753 kB/s)
+Progress (1): 1.0 kB
+Progress (1): 3.4 kB
+Progress (1): 7.0 kB
+Progress (1): 12 kB 
+Progress (1): 16 kB
+Progress (1): 20 kB
+Progress (1): 20 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/blutorange/closure-compiler-maven-plugin/2.24.0/closure-compiler-maven-plugin-2.24.0.pom (20 kB at 345 kB/s)
+Downloading from atlassian-public: https://packages.atlassian.com/maven-public/com/github/blutorange/closure-compiler-maven-plugin/2.24.0/closure-compiler-maven-plugin-2.24.0.bbxservices
+Downloading from xwiki-releases: https://maven.xwiki.org/releases/com/github/blutorange/closure-compiler-maven-plugin/2.24.0/closure-compiler-maven-plugin-2.24.0.bbxservices
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/blutorange/closure-compiler-maven-plugin/2.24.0/closure-compiler-maven-plugin-2.24.0.bbxservices
+Progress (1): 7.7/95 kB
+Progress (1): 12/95 kB 
+Progress (1): 28/95 kB
+Progress (1): 44/95 kB
+Progress (1): 61/95 kB
+Progress (1): 77/95 kB
+Progress (1): 93/95 kB
+Progress (1): 95 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/github/blutorange/closure-compiler-maven-plugin/2.24.0/closure-compiler-maven-plugin-2.24.0.bbxservices (95 kB at 753 kB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/xwiki/contrib/jshint-maven-plugin/1.7.1/jshint-maven-plugin-1.7.1.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/xwiki/contrib/jshint-maven-plugin/1.7.1/jshint-maven-plugin-1.7.1.pom
-Progress (1): 2.6 kB                    Downloaded from xwiki-releases: https://maven.xwiki.org/releases/org/xwiki/contrib/jshint-maven-plugin/1.7.1/jshint-maven-plugin-1.7.1.pom (2.6 kB at 8.9 kB/s)
+Progress (1): 2.6 kB
+                    
+Downloaded from xwiki-releases: https://maven.xwiki.org/releases/org/xwiki/contrib/jshint-maven-plugin/1.7.1/jshint-maven-plugin-1.7.1.pom (2.6 kB at 8.9 kB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/xwiki/contrib/parent-commons/13.7/parent-commons-13.7.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/xwiki/contrib/parent-commons/13.7/parent-commons-13.7.pom
-Progress (1): 6.3 kB                    Downloaded from xwiki-releases: https://maven.xwiki.org/releases/org/xwiki/contrib/parent-commons/13.7/parent-commons-13.7.pom (6.3 kB at 29 kB/s)
+Progress (1): 6.3 kB
+                    
+Downloaded from xwiki-releases: https://maven.xwiki.org/releases/org/xwiki/contrib/parent-commons/13.7/parent-commons-13.7.pom (6.3 kB at 29 kB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/xwiki/commons/xwiki-commons-pom/13.7/xwiki-commons-pom-13.7.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/xwiki/commons/xwiki-commons-pom/13.7/xwiki-commons-pom-13.7.pom
 Downloading from central: https://repo.maven.apache.org/maven2/org/xwiki/commons/xwiki-commons-pom/13.7/xwiki-commons-pom-13.7.pom
-Progress (1): 806 BProgress (1): 2.1 kBProgress (1): 3.3 kBProgress (1): 6.5 kBProgress (1): 9.0 kBProgress (1): 12 kB Progress (1): 15 kBProgress (1): 17 kBProgress (1): 18 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/xwiki/commons/xwiki-commons-pom/13.7/xwiki-commons-pom-13.7.pom (18 kB at 145 kB/s)
+Progress (1): 806 B
+Progress (1): 2.1 kB
+Progress (1): 3.3 kB
+Progress (1): 6.5 kB
+Progress (1): 9.0 kB
+Progress (1): 12 kB 
+Progress (1): 15 kB
+Progress (1): 17 kB
+Progress (1): 18 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/xwiki/commons/xwiki-commons-pom/13.7/xwiki-commons-pom-13.7.pom (18 kB at 145 kB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/xwiki/commons/xwiki-commons/13.7/xwiki-commons-13.7.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/xwiki/commons/xwiki-commons/13.7/xwiki-commons-13.7.pom
 Downloading from central: https://repo.maven.apache.org/maven2/org/xwiki/commons/xwiki-commons/13.7/xwiki-commons-13.7.pom
-Progress (1): 686 BProgress (1): 1.7 kBProgress (1): 2.8 kBProgress (1): 4.4 kBProgress (1): 7.3 kBProgress (1): 9.2 kBProgress (1): 11 kB Progress (1): 13 kBProgress (1): 14 kBProgress (1): 16 kBProgress (1): 20 kBProgress (1): 25 kBProgress (1): 29 kBProgress (1): 35 kBProgress (1): 40 kBProgress (1): 40 kBProgress (1): 47 kBProgress (1): 51 kBProgress (1): 55 kBProgress (1): 57 kBProgress (1): 62 kBProgress (1): 71 kBProgress (1): 77 kBProgress (1): 81 kBProgress (1): 82 kBProgress (1): 85 kBProgress (1): 87 kBProgress (1): 93 kBProgress (1): 97 kBProgress (1): 100 kBProgress (1): 102 kBProgress (1): 104 kBProgress (1): 106 kBProgress (1): 108 kBProgress (1): 111 kBProgress (1): 114 kBProgress (1): 117 kBProgress (1): 119 kBProgress (1): 122 kBProgress (1): 124 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/xwiki/commons/xwiki-commons/13.7/xwiki-commons-13.7.pom (124 kB at 603 kB/s)
-Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/xwiki/contrib/jshint-maven-plugin/1.7.1/jshint-maven-plugin-1.7.1.jar
-Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/xwiki/contrib/jshint-maven-plugin/1.7.1/jshint-maven-plugin-1.7.1.jar
-Progress (1): 7.0/47 kBProgress (1): 23/47 kB Progress (1): 23/47 kBProgress (1): 40/47 kBProgress (1): 47 kB                      Downloaded from xwiki-releases: https://maven.xwiki.org/releases/org/xwiki/contrib/jshint-maven-plugin/1.7.1/jshint-maven-plugin-1.7.1.jar (47 kB at 107 kB/s)
+Progress (1): 686 B
+Progress (1): 1.7 kB
+Progress (1): 2.8 kB
+Progress (1): 4.4 kB
+Progress (1): 7.3 kB
+Progress (1): 9.2 kB
+Progress (1): 11 kB 
+Progress (1): 13 kB
+Progress (1): 14 kB
+Progress (1): 16 kB
+Progress (1): 20 kB
+Progress (1): 25 kB
+Progress (1): 29 kB
+Progress (1): 35 kB
+Progress (1): 40 kB
+Progress (1): 40 kB
+Progress (1): 47 kB
+Progress (1): 51 kB
+Progress (1): 55 kB
+Progress (1): 57 kB
+Progress (1): 62 kB
+Progress (1): 71 kB
+Progress (1): 77 kB
+Progress (1): 81 kB
+Progress (1): 82 kB
+Progress (1): 85 kB
+Progress (1): 87 kB
+Progress (1): 93 kB
+Progress (1): 97 kB
+Progress (1): 100 kB
+Progress (1): 102 kB
+Progress (1): 104 kB
+Progress (1): 106 kB
+Progress (1): 108 kB
+Progress (1): 111 kB
+Progress (1): 114 kB
+Progress (1): 117 kB
+Progress (1): 119 kB
+Progress (1): 122 kB
+Progress (1): 124 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/xwiki/commons/xwiki-commons/13.7/xwiki-commons-13.7.pom (124 kB at 603 kB/s)
+Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/xwiki/contrib/jshint-maven-plugin/1.7.1/jshint-maven-plugin-1.7.1.bbxservices
+Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/xwiki/contrib/jshint-maven-plugin/1.7.1/jshint-maven-plugin-1.7.1.bbxservices
+Progress (1): 7.0/47 kB
+Progress (1): 23/47 kB 
+Progress (1): 23/47 kB
+Progress (1): 40/47 kB
+Progress (1): 47 kB   
+                   
+Downloaded from xwiki-releases: https://maven.xwiki.org/releases/org/xwiki/contrib/jshint-maven-plugin/1.7.1/jshint-maven-plugin-1.7.1.bbxservices (47 kB at 107 kB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/eclipse/m2e/lifecycle-mapping/1.0.0/lifecycle-mapping-1.0.0.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/eclipse/m2e/lifecycle-mapping/1.0.0/lifecycle-mapping-1.0.0.pom
 Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/m2e/lifecycle-mapping/1.0.0/lifecycle-mapping-1.0.0.pom
-[WARNING] The POM for org.eclipse.m2e:lifecycle-mapping:jar:1.0.0 is missing, no dependency information available
-Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/eclipse/m2e/lifecycle-mapping/1.0.0/lifecycle-mapping-1.0.0.jar
-Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/eclipse/m2e/lifecycle-mapping/1.0.0/lifecycle-mapping-1.0.0.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/m2e/lifecycle-mapping/1.0.0/lifecycle-mapping-1.0.0.jar
+[WARNING] The POM for org.eclipse.m2e:lifecycle-mapping:bbxservices:1.0.0 is missing, no dependency information available
+Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/eclipse/m2e/lifecycle-mapping/1.0.0/lifecycle-mapping-1.0.0.bbxservices
+Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/eclipse/m2e/lifecycle-mapping/1.0.0/lifecycle-mapping-1.0.0.bbxservices
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/m2e/lifecycle-mapping/1.0.0/lifecycle-mapping-1.0.0.bbxservices
 [WARNING] Failed to retrieve plugin descriptor for org.eclipse.m2e:lifecycle-mapping:1.0.0: Plugin org.eclipse.m2e:lifecycle-mapping:1.0.0 or one of its dependencies could not be resolved:
-	Could not find artifact org.eclipse.m2e:lifecycle-mapping:jar:1.0.0 in atlassian-public (https://packages.atlassian.com/maven-public/)
-	Could not find artifact org.eclipse.m2e:lifecycle-mapping:jar:1.0.0 in xwiki-releases (https://maven.xwiki.org/releases/)
-	Could not find artifact org.eclipse.m2e:lifecycle-mapping:jar:1.0.0 in central (https://repo.maven.apache.org/maven2)
+	Could not find artifact org.eclipse.m2e:lifecycle-mapping:bbxservices:1.0.0 in atlassian-public (https://packages.atlassian.com/maven-public/)
+	Could not find artifact org.eclipse.m2e:lifecycle-mapping:bbxservices:1.0.0 in xwiki-releases (https://maven.xwiki.org/releases/)
+	Could not find artifact org.eclipse.m2e:lifecycle-mapping:bbxservices:1.0.0 in central (https://repo.maven.apache.org/maven2)
 
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/xwiki/commons/xwiki-commons-tool-extension-plugin/14.10.20/xwiki-commons-tool-extension-plugin-14.10.20.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/xwiki/commons/xwiki-commons-tool-extension-plugin/14.10.20/xwiki-commons-tool-extension-plugin-14.10.20.pom
 Downloading from central: https://repo.maven.apache.org/maven2/org/xwiki/commons/xwiki-commons-tool-extension-plugin/14.10.20/xwiki-commons-tool-extension-plugin-14.10.20.pom
-Progress (1): 848 BProgress (1): 2.6 kBProgress (1): 5.3 kBProgress (1): 5.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/xwiki/commons/xwiki-commons-tool-extension-plugin/14.10.20/xwiki-commons-tool-extension-plugin-14.10.20.pom (5.7 kB at 46 kB/s)
-Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/xwiki/commons/xwiki-commons-tool-extension-plugin/14.10.20/xwiki-commons-tool-extension-plugin-14.10.20.jar
-Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/xwiki/commons/xwiki-commons-tool-extension-plugin/14.10.20/xwiki-commons-tool-extension-plugin-14.10.20.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/xwiki/commons/xwiki-commons-tool-extension-plugin/14.10.20/xwiki-commons-tool-extension-plugin-14.10.20.jar
-Progress (1): 7.7/34 kBProgress (1): 13/34 kB Progress (1): 19/34 kBProgress (1): 34 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/xwiki/commons/xwiki-commons-tool-extension-plugin/14.10.20/xwiki-commons-tool-extension-plugin-14.10.20.jar (34 kB at 112 kB/s)
+Progress (1): 848 B
+Progress (1): 2.6 kB
+Progress (1): 5.3 kB
+Progress (1): 5.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/xwiki/commons/xwiki-commons-tool-extension-plugin/14.10.20/xwiki-commons-tool-extension-plugin-14.10.20.pom (5.7 kB at 46 kB/s)
+Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/xwiki/commons/xwiki-commons-tool-extension-plugin/14.10.20/xwiki-commons-tool-extension-plugin-14.10.20.bbxservices
+Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/xwiki/commons/xwiki-commons-tool-extension-plugin/14.10.20/xwiki-commons-tool-extension-plugin-14.10.20.bbxservices
+Downloading from central: https://repo.maven.apache.org/maven2/org/xwiki/commons/xwiki-commons-tool-extension-plugin/14.10.20/xwiki-commons-tool-extension-plugin-14.10.20.bbxservices
+Progress (1): 7.7/34 kB
+Progress (1): 13/34 kB 
+Progress (1): 19/34 kB
+Progress (1): 34 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/xwiki/commons/xwiki-commons-tool-extension-plugin/14.10.20/xwiki-commons-tool-extension-plugin-14.10.20.bbxservices (34 kB at 112 kB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/apache/maven/plugins/maven-help-plugin/maven-metadata.xml
 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-help-plugin/maven-metadata.xml
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/apache/maven/plugins/maven-help-plugin/maven-metadata.xml
-Progress (1): 807 B                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-help-plugin/maven-metadata.xml (807 B at 18 kB/s)
+Progress (1): 807 B
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-help-plugin/maven-metadata.xml (807 B at 18 kB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/apache/maven/plugins/maven-help-plugin/3.5.1/maven-help-plugin-3.5.1.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/apache/maven/plugins/maven-help-plugin/3.5.1/maven-help-plugin-3.5.1.pom
 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-help-plugin/3.5.1/maven-help-plugin-3.5.1.pom
-Progress (1): 780 BProgress (1): 2.0 kBProgress (1): 5.0 kBProgress (1): 9.1 kBProgress (1): 10 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-help-plugin/3.5.1/maven-help-plugin-3.5.1.pom (10 kB at 253 kB/s)
-Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/apache/maven/plugins/maven-help-plugin/3.5.1/maven-help-plugin-3.5.1.jar
-Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/apache/maven/plugins/maven-help-plugin/3.5.1/maven-help-plugin-3.5.1.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-help-plugin/3.5.1/maven-help-plugin-3.5.1.jar
-Progress (1): 7.7/65 kBProgress (1): 8.2/65 kBProgress (1): 25/65 kB Progress (1): 41/65 kBProgress (1): 57/65 kBProgress (1): 65 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-help-plugin/3.5.1/maven-help-plugin-3.5.1.jar (65 kB at 1.4 MB/s)
+Progress (1): 780 B
+Progress (1): 2.0 kB
+Progress (1): 5.0 kB
+Progress (1): 9.1 kB
+Progress (1): 10 kB 
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-help-plugin/3.5.1/maven-help-plugin-3.5.1.pom (10 kB at 253 kB/s)
+Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/apache/maven/plugins/maven-help-plugin/3.5.1/maven-help-plugin-3.5.1.bbxservices
+Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/apache/maven/plugins/maven-help-plugin/3.5.1/maven-help-plugin-3.5.1.bbxservices
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-help-plugin/3.5.1/maven-help-plugin-3.5.1.bbxservices
+Progress (1): 7.7/65 kB
+Progress (1): 8.2/65 kB
+Progress (1): 25/65 kB 
+Progress (1): 41/65 kB
+Progress (1): 57/65 kB
+Progress (1): 65 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-help-plugin/3.5.1/maven-help-plugin-3.5.1.bbxservices (65 kB at 1.4 MB/s)
 [INFO] 
 [INFO] ---------------< org.xwiki.contrib.bb-plugin:bb-plugin >----------------
 [INFO] Building xWiki - Parent POM 1.0                                    [1/2]
 [INFO]   from pom.xml
 [INFO] --------------------------------[ pom ]---------------------------------
-[WARNING] The POM for org.eclipse.m2e:lifecycle-mapping:jar:1.0.0 is missing, no dependency information available
+[WARNING] The POM for org.eclipse.m2e:lifecycle-mapping:bbxservices:1.0.0 is missing, no dependency information available
 [WARNING] Failed to retrieve plugin descriptor for org.eclipse.m2e:lifecycle-mapping:1.0.0: Plugin org.eclipse.m2e:lifecycle-mapping:1.0.0 or one of its dependencies could not be resolved:
-	org.eclipse.m2e:lifecycle-mapping:jar:1.0.0 was not found in https://packages.atlassian.com/maven-public/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of atlassian-public has elapsed or updates are forced
-	org.eclipse.m2e:lifecycle-mapping:jar:1.0.0 was not found in https://maven.xwiki.org/releases/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of xwiki-releases has elapsed or updates are forced
-	org.eclipse.m2e:lifecycle-mapping:jar:1.0.0 was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced
+	org.eclipse.m2e:lifecycle-mapping:bbxservices:1.0.0 was not found in https://packages.atlassian.com/maven-public/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of atlassian-public has elapsed or updates are forced
+	org.eclipse.m2e:lifecycle-mapping:bbxservices:1.0.0 was not found in https://maven.xwiki.org/releases/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of xwiki-releases has elapsed or updates are forced
+	org.eclipse.m2e:lifecycle-mapping:bbxservices:1.0.0 was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced
 
 [INFO] 
 [INFO] --- help:3.5.1:effective-pom (default-cli) @ bb-plugin ---
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.13.1/maven-plugin-tools-generators-3.13.1.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.13.1/maven-plugin-tools-generators-3.13.1.pom
 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.13.1/maven-plugin-tools-generators-3.13.1.pom
-Progress (1): 841 BProgress (1): 3.6 kBProgress (1): 4.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.13.1/maven-plugin-tools-generators-3.13.1.pom (4.1 kB at 98 kB/s)
+Progress (1): 841 B
+Progress (1): 3.6 kB
+Progress (1): 4.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.13.1/maven-plugin-tools-generators-3.13.1.pom (4.1 kB at 98 kB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/apache/maven/plugin-tools/maven-plugin-tools/3.13.1/maven-plugin-tools-3.13.1.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/apache/maven/plugin-tools/maven-plugin-tools/3.13.1/maven-plugin-tools-3.13.1.pom
 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools/3.13.1/maven-plugin-tools-3.13.1.pom
-Progress (1): 803 BProgress (1): 2.3 kBProgress (1): 4.1 kBProgress (1): 9.1 kBProgress (1): 13 kB Progress (1): 17 kBProgress (1): 18 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools/3.13.1/maven-plugin-tools-3.13.1.pom (18 kB at 414 kB/s)
+Progress (1): 803 B
+Progress (1): 2.3 kB
+Progress (1): 4.1 kB
+Progress (1): 9.1 kB
+Progress (1): 13 kB 
+Progress (1): 17 kB
+Progress (1): 18 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools/3.13.1/maven-plugin-tools-3.13.1.pom (18 kB at 414 kB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/jsoup/jsoup/1.17.2/jsoup-1.17.2.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/jsoup/jsoup/1.17.2/jsoup-1.17.2.pom
 Downloading from central: https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.17.2/jsoup-1.17.2.pom
-Progress (1): 791 BProgress (1): 2.2 kBProgress (1): 4.3 kBProgress (1): 7.4 kBProgress (1): 9.5 kBProgress (1): 12 kB Progress (1): 15 kBProgress (1): 16 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.17.2/jsoup-1.17.2.pom (16 kB at 114 kB/s)
+Progress (1): 791 B
+Progress (1): 2.2 kB
+Progress (1): 4.3 kB
+Progress (1): 7.4 kB
+Progress (1): 9.5 kB
+Progress (1): 12 kB 
+Progress (1): 15 kB
+Progress (1): 16 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.17.2/jsoup-1.17.2.pom (16 kB at 114 kB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/codehaus/plexus/plexus-interactivity-api/1.3/plexus-interactivity-api-1.3.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/codehaus/plexus/plexus-interactivity-api/1.3/plexus-interactivity-api-1.3.pom
 Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.3/plexus-interactivity-api-1.3.pom
-Progress (1): 1.6 kBProgress (1): 1.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.3/plexus-interactivity-api-1.3.pom (1.7 kB at 40 kB/s)
+Progress (1): 1.6 kB
+Progress (1): 1.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.3/plexus-interactivity-api-1.3.pom (1.7 kB at 40 kB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/codehaus/plexus/plexus-interactivity/1.3/plexus-interactivity-1.3.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/codehaus/plexus/plexus-interactivity/1.3/plexus-interactivity-1.3.pom
 Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity/1.3/plexus-interactivity-1.3.pom
-Progress (1): 1.3 kBProgress (1): 1.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity/1.3/plexus-interactivity-1.3.pom (1.9 kB at 41 kB/s)
+Progress (1): 1.3 kB
+Progress (1): 1.9 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity/1.3/plexus-interactivity-1.3.pom (1.9 kB at 41 kB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/com/thoughtworks/xstream/xstream/1.4.20/xstream-1.4.20.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/com/thoughtworks/xstream/xstream/1.4.20/xstream-1.4.20.pom
 Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.20/xstream-1.4.20.pom
-Progress (1): 880 BProgress (1): 4.2 kBProgress (1): 7.1 kBProgress (1): 10 kB Progress (1): 14 kBProgress (1): 22 kBProgress (1): 25 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.20/xstream-1.4.20.pom (25 kB at 452 kB/s)
+Progress (1): 880 B
+Progress (1): 4.2 kB
+Progress (1): 7.1 kB
+Progress (1): 10 kB 
+Progress (1): 14 kB
+Progress (1): 22 kB
+Progress (1): 25 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.20/xstream-1.4.20.pom (25 kB at 452 kB/s)
 Downloading from atlassian-public: https://packages.atlassian.com/maven-public/com/thoughtworks/xstream/xstream-parent/1.4.20/xstream-parent-1.4.20.pom
 Downloading from xwiki-releases: https://maven.xwiki.org/releases/com/thoughtworks/xstream/xstream-parent/1.4.20/xstream-parent-1.4.20.pom
 Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream-parent/1.4.20/xstream-parent-1.4.20.pom
-Progress (1): 797 BProgress (1): 3.2 kBProgress (1): 5.9 kBProgress (1): 11 kB Progress (1): 14 kBProgress (1): 19 kBProgress (1): 25 kBProgress (1): 29 kBProgress (1): 34 kBProgress (1): 38 kBProgress (1): 41 kBProgress (1): 43 kBProgress (1): 44 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream-parent/1.4.20/xstream-parent-1.4.20.pom (44 kB at 890 kB/s)
-Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.13.1/maven-plugin-tools-generators-3.13.1.jar
-Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/jsoup/jsoup/1.17.2/jsoup-1.17.2.jar
-Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/codehaus/plexus/plexus-interactivity-api/1.3/plexus-interactivity-api-1.3.jar
-Downloading from atlassian-public: https://packages.atlassian.com/maven-public/com/thoughtworks/xstream/xstream/1.4.20/xstream-1.4.20.jar
-Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.13.1/maven-plugin-tools-generators-3.13.1.jar
-Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/jsoup/jsoup/1.17.2/jsoup-1.17.2.jar
-Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/codehaus/plexus/plexus-interactivity-api/1.3/plexus-interactivity-api-1.3.jar
-Downloading from xwiki-releases: https://maven.xwiki.org/releases/com/thoughtworks/xstream/xstream/1.4.20/xstream-1.4.20.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.13.1/maven-plugin-tools-generators-3.13.1.jar
-Progress (1): 7.7/44 kBProgress (1): 16/44 kB Progress (1): 25/44 kBProgress (1): 41/44 kBProgress (1): 44 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.13.1/maven-plugin-tools-generators-3.13.1.jar (44 kB at 875 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.17.2/jsoup-1.17.2.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.3/plexus-interactivity-api-1.3.jar
-Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.20/xstream-1.4.20.jar
-Progress (1): 3.4/10 kBProgress (1): 10 kB                       Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.3/plexus-interactivity-api-1.3.jar (10 kB at 243 kB/s)
-Progress (1): 0.9/645 kBProgress (2): 0.9/645 kB | 0.9/446 kBProgress (2): 2.3/645 kB | 0.9/446 kBProgress (2): 2.3/645 kB | 2.3/446 kBProgress (2): 2.3/645 kB | 3.6/446 kBProgress (2): 3.6/645 kB | 3.6/446 kBProgress (2): 3.6/645 kB | 5.0/446 kBProgress (2): 5.0/645 kB | 5.0/446 kBProgress (2): 5.0/645 kB | 6.4/446 kBProgress (2): 6.4/645 kB | 6.4/446 kBProgress (2): 6.4/645 kB | 7.7/446 kBProgress (2): 7.7/645 kB | 7.7/446 kBProgress (2): 7.7/645 kB | 8.2/446 kBProgress (2): 9.1/645 kB | 8.2/446 kBProgress (2): 9.1/645 kB | 9.6/446 kBProgress (2): 10/645 kB | 9.6/446 kB Progress (2): 10/645 kB | 11/446 kB Progress (2): 12/645 kB | 11/446 kBProgress (2): 12/645 kB | 12/446 kBProgress (2): 13/645 kB | 12/446 kBProgress (2): 13/645 kB | 14/446 kBProgress (2): 15/645 kB | 14/446 kBProgress (2): 15/645 kB | 15/446 kBProgress (2): 16/645 kB | 15/446 kBProgress (2): 16/645 kB | 16/446 kBProgress (2): 17/645 kB | 16/446 kBProgress (2): 17/645 kB | 18/446 kBProgress (2): 19/645 kB | 18/446 kBProgress (2): 20/645 kB | 18/446 kBProgress (2): 20/645 kB | 19/446 kBProgress (2): 21/645 kB | 19/446 kBProgress (2): 23/645 kB | 19/446 kBProgress (2): 23/645 kB | 21/446 kBProgress (2): 23/645 kB | 22/446 kBProgress (2): 24/645 kB | 22/446 kBProgress (2): 24/645 kB | 23/446 kBProgress (2): 25/645 kB | 23/446 kBProgress (2): 25/645 kB | 25/446 kBProgress (2): 27/645 kB | 25/446 kBProgress (2): 27/645 kB | 26/446 kBProgress (2): 28/645 kB | 26/446 kBProgress (2): 28/645 kB | 27/446 kBProgress (2): 30/645 kB | 27/446 kBProgress (2): 30/645 kB | 29/446 kBProgress (2): 31/645 kB | 29/446 kBProgress (2): 31/645 kB | 30/446 kBProgress (2): 32/645 kB | 30/446 kBProgress (2): 32/645 kB | 31/446 kBProgress (2): 32/645 kB | 33/446 kBProgress (2): 32/645 kB | 34/446 kBProgress (2): 34/645 kB | 34/446 kBProgress (2): 34/645 kB | 36/446 kBProgress (2): 35/645 kB | 36/446 kBProgress (2): 35/645 kB | 37/446 kBProgress (2): 36/645 kB | 37/446 kBProgress (2): 36/645 kB | 38/446 kBProgress (2): 38/645 kB | 38/446 kBProgress (2): 38/645 kB | 40/446 kBProgress (2): 39/645 kB | 40/446 kBProgress (2): 39/645 kB | 41/446 kBProgress (2): 41/645 kB | 41/446 kBProgress (2): 41/645 kB | 42/446 kBProgress (2): 42/645 kB | 42/446 kBProgress (2): 42/645 kB | 44/446 kBProgress (2): 43/645 kB | 44/446 kBProgress (2): 45/645 kB | 44/446 kBProgress (2): 45/645 kB | 45/446 kBProgress (2): 45/645 kB | 47/446 kBProgress (2): 46/645 kB | 47/446 kBProgress (2): 46/645 kB | 48/446 kBProgress (2): 47/645 kB | 48/446 kBProgress (2): 47/645 kB | 49/446 kBProgress (2): 49/645 kB | 49/446 kBProgress (2): 49/645 kB | 51/446 kBProgress (2): 50/645 kB | 51/446 kBProgress (2): 50/645 kB | 52/446 kBProgress (2): 51/645 kB | 52/446 kBProgress (2): 51/645 kB | 53/446 kBProgress (2): 53/645 kB | 53/446 kBProgress (2): 53/645 kB | 55/446 kBProgress (2): 54/645 kB | 55/446 kBProgress (2): 56/645 kB | 55/446 kBProgress (2): 56/645 kB | 59/446 kBProgress (2): 60/645 kB | 59/446 kBProgress (2): 60/645 kB | 63/446 kBProgress (2): 64/645 kB | 63/446 kBProgress (2): 64/645 kB | 67/446 kBProgress (2): 68/645 kB | 67/446 kBProgress (2): 73/645 kB | 67/446 kBProgress (2): 77/645 kB | 67/446 kBProgress (2): 77/645 kB | 72/446 kBProgress (2): 81/645 kB | 72/446 kBProgress (2): 81/645 kB | 76/446 kBProgress (2): 81/645 kB | 80/446 kBProgress (2): 85/645 kB | 80/446 kBProgress (2): 85/645 kB | 84/446 kBProgress (2): 89/645 kB | 84/446 kBProgress (2): 94/645 kB | 84/446 kBProgress (2): 94/645 kB | 89/446 kBProgress (2): 98/645 kB | 89/446 kBProgress (2): 98/645 kB | 93/446 kBProgress (2): 102/645 kB | 93/446 kBProgress (2): 102/645 kB | 97/446 kBProgress (2): 106/645 kB | 97/446 kBProgress (2): 106/645 kB | 101/446 kBProgress (2): 111/645 kB | 101/446 kBProgress (2): 111/645 kB | 105/446 kBProgress (2): 115/645 kB | 105/446 kBProgress (2): 115/645 kB | 110/446 kBProgress (2): 119/645 kB | 110/446 kBProgress (2): 123/645 kB | 110/446 kBProgress (2): 123/645 kB | 114/446 kBProgress (2): 127/645 kB | 114/446 kBProgress (2): 127/645 kB | 118/446 kBProgress (2): 132/645 kB | 118/446 kBProgress (2): 132/645 kB | 122/446 kBProgress (2): 136/645 kB | 122/446 kBProgress (2): 136/645 kB | 127/446 kBProgress (2): 140/645 kB | 127/446 kBProgress (2): 140/645 kB | 131/446 kBProgress (2): 140/645 kB | 131/446 kBProgress (2): 144/645 kB | 131/446 kBProgress (2): 144/645 kB | 135/446 kBProgress (2): 144/645 kB | 140/446 kBProgress (2): 144/645 kB | 144/446 kBProgress (2): 149/645 kB | 144/446 kBProgress (2): 149/645 kB | 148/446 kBProgress (2): 149/645 kB | 152/446 kBProgress (2): 153/645 kB | 152/446 kBProgress (2): 155/645 kB | 152/446 kBProgress (2): 155/645 kB | 156/446 kBProgress (2): 159/645 kB | 156/446 kBProgress (2): 159/645 kB | 161/446 kBProgress (2): 164/645 kB | 161/446 kBProgress (2): 168/645 kB | 161/446 kBProgress (2): 172/645 kB | 161/446 kBProgress (2): 176/645 kB | 161/446 kBProgress (2): 181/645 kB | 161/446 kBProgress (2): 185/645 kB | 161/446 kBProgress (2): 185/645 kB | 165/446 kBProgress (2): 189/645 kB | 165/446 kBProgress (2): 193/645 kB | 165/446 kBProgress (2): 193/645 kB | 169/446 kBProgress (2): 193/645 kB | 173/446 kBProgress (2): 197/645 kB | 173/446 kBProgress (2): 197/645 kB | 178/446 kBProgress (2): 202/645 kB | 178/446 kBProgress (2): 202/645 kB | 182/446 kBProgress (2): 206/645 kB | 182/446 kBProgress (2): 206/645 kB | 186/446 kBProgress (2): 210/645 kB | 186/446 kBProgress (2): 210/645 kB | 190/446 kBProgress (2): 214/645 kB | 190/446 kBProgress (2): 214/645 kB | 195/446 kBProgress (2): 214/645 kB | 199/446 kBProgress (2): 219/645 kB | 199/446 kBProgress (2): 219/645 kB | 203/446 kBProgress (2): 219/645 kB | 207/446 kBProgress (2): 223/645 kB | 207/446 kBProgress (2): 223/645 kB | 211/446 kBProgress (2): 223/645 kB | 216/446 kBProgress (2): 223/645 kB | 220/446 kBProgress (2): 239/645 kB | 220/446 kBProgress (2): 256/645 kB | 220/446 kBProgress (2): 256/645 kB | 236/446 kBProgress (2): 272/645 kB | 236/446 kBProgress (2): 272/645 kB | 253/446 kBProgress (2): 286/645 kB | 253/446 kBProgress (2): 286/645 kB | 262/446 kBProgress (2): 303/645 kB | 262/446 kBProgress (2): 303/645 kB | 279/446 kBProgress (2): 303/645 kB | 295/446 kBProgress (2): 319/645 kB | 295/446 kBProgress (2): 335/645 kB | 295/446 kBProgress (2): 335/645 kB | 311/446 kBProgress (2): 352/645 kB | 311/446 kBProgress (2): 368/645 kB | 311/446 kBProgress (2): 368/645 kB | 328/446 kBProgress (2): 385/645 kB | 328/446 kBProgress (2): 385/645 kB | 344/446 kBProgress (2): 385/645 kB | 360/446 kBProgress (2): 401/645 kB | 360/446 kBProgress (2): 401/645 kB | 377/446 kBProgress (2): 401/645 kB | 393/446 kBProgress (2): 417/645 kB | 393/446 kBProgress (2): 434/645 kB | 393/446 kBProgress (2): 434/645 kB | 410/446 kBProgress (2): 434/645 kB | 426/446 kBProgress (2): 450/645 kB | 426/446 kBProgress (2): 466/645 kB | 426/446 kBProgress (2): 475/645 kB | 426/446 kBProgress (2): 492/645 kB | 426/446 kBProgress (2): 492/645 kB | 442/446 kBProgress (2): 492/645 kB | 446 kB    Progress (2): 508/645 kB | 446 kBProgress (2): 524/645 kB | 446 kB                                 Downloaded from central: https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.17.2/jsoup-1.17.2.jar (446 kB at 1.8 MB/s)
-Progress (1): 541/645 kBProgress (1): 557/645 kBProgress (1): 573/645 kBProgress (1): 590/645 kBProgress (1): 606/645 kBProgress (1): 623/645 kBProgress (1): 639/645 kBProgress (1): 645 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.20/xstream-1.4.20.jar (645 kB at 2.5 MB/s)
+Progress (1): 797 B
+Progress (1): 3.2 kB
+Progress (1): 5.9 kB
+Progress (1): 11 kB 
+Progress (1): 14 kB
+Progress (1): 19 kB
+Progress (1): 25 kB
+Progress (1): 29 kB
+Progress (1): 34 kB
+Progress (1): 38 kB
+Progress (1): 41 kB
+Progress (1): 43 kB
+Progress (1): 44 kB
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream-parent/1.4.20/xstream-parent-1.4.20.pom (44 kB at 890 kB/s)
+Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.13.1/maven-plugin-tools-generators-3.13.1.bbxservices
+Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/jsoup/jsoup/1.17.2/jsoup-1.17.2.bbxservices
+Downloading from atlassian-public: https://packages.atlassian.com/maven-public/org/codehaus/plexus/plexus-interactivity-api/1.3/plexus-interactivity-api-1.3.bbxservices
+Downloading from atlassian-public: https://packages.atlassian.com/maven-public/com/thoughtworks/xstream/xstream/1.4.20/xstream-1.4.20.bbxservices
+Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.13.1/maven-plugin-tools-generators-3.13.1.bbxservices
+Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/jsoup/jsoup/1.17.2/jsoup-1.17.2.bbxservices
+Downloading from xwiki-releases: https://maven.xwiki.org/releases/org/codehaus/plexus/plexus-interactivity-api/1.3/plexus-interactivity-api-1.3.bbxservices
+Downloading from xwiki-releases: https://maven.xwiki.org/releases/com/thoughtworks/xstream/xstream/1.4.20/xstream-1.4.20.bbxservices
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.13.1/maven-plugin-tools-generators-3.13.1.bbxservices
+Progress (1): 7.7/44 kB
+Progress (1): 16/44 kB 
+Progress (1): 25/44 kB
+Progress (1): 41/44 kB
+Progress (1): 44 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.13.1/maven-plugin-tools-generators-3.13.1.bbxservices (44 kB at 875 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.17.2/jsoup-1.17.2.bbxservices
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.3/plexus-interactivity-api-1.3.bbxservices
+Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.20/xstream-1.4.20.bbxservices
+Progress (1): 3.4/10 kB
+Progress (1): 10 kB    
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.3/plexus-interactivity-api-1.3.bbxservices (10 kB at 243 kB/s)
+Progress (1): 0.9/645 kB
+Progress (2): 0.9/645 kB | 0.9/446 kB
+Progress (2): 2.3/645 kB | 0.9/446 kB
+Progress (2): 2.3/645 kB | 2.3/446 kB
+Progress (2): 2.3/645 kB | 3.6/446 kB
+Progress (2): 3.6/645 kB | 3.6/446 kB
+Progress (2): 3.6/645 kB | 5.0/446 kB
+Progress (2): 5.0/645 kB | 5.0/446 kB
+Progress (2): 5.0/645 kB | 6.4/446 kB
+Progress (2): 6.4/645 kB | 6.4/446 kB
+Progress (2): 6.4/645 kB | 7.7/446 kB
+Progress (2): 7.7/645 kB | 7.7/446 kB
+Progress (2): 7.7/645 kB | 8.2/446 kB
+Progress (2): 9.1/645 kB | 8.2/446 kB
+Progress (2): 9.1/645 kB | 9.6/446 kB
+Progress (2): 10/645 kB | 9.6/446 kB 
+Progress (2): 10/645 kB | 11/446 kB 
+Progress (2): 12/645 kB | 11/446 kB
+Progress (2): 12/645 kB | 12/446 kB
+Progress (2): 13/645 kB | 12/446 kB
+Progress (2): 13/645 kB | 14/446 kB
+Progress (2): 15/645 kB | 14/446 kB
+Progress (2): 15/645 kB | 15/446 kB
+Progress (2): 16/645 kB | 15/446 kB
+Progress (2): 16/645 kB | 16/446 kB
+Progress (2): 17/645 kB | 16/446 kB
+Progress (2): 17/645 kB | 18/446 kB
+Progress (2): 19/645 kB | 18/446 kB
+Progress (2): 20/645 kB | 18/446 kB
+Progress (2): 20/645 kB | 19/446 kB
+Progress (2): 21/645 kB | 19/446 kB
+Progress (2): 23/645 kB | 19/446 kB
+Progress (2): 23/645 kB | 21/446 kB
+Progress (2): 23/645 kB | 22/446 kB
+Progress (2): 24/645 kB | 22/446 kB
+Progress (2): 24/645 kB | 23/446 kB
+Progress (2): 25/645 kB | 23/446 kB
+Progress (2): 25/645 kB | 25/446 kB
+Progress (2): 27/645 kB | 25/446 kB
+Progress (2): 27/645 kB | 26/446 kB
+Progress (2): 28/645 kB | 26/446 kB
+Progress (2): 28/645 kB | 27/446 kB
+Progress (2): 30/645 kB | 27/446 kB
+Progress (2): 30/645 kB | 29/446 kB
+Progress (2): 31/645 kB | 29/446 kB
+Progress (2): 31/645 kB | 30/446 kB
+Progress (2): 32/645 kB | 30/446 kB
+Progress (2): 32/645 kB | 31/446 kB
+Progress (2): 32/645 kB | 33/446 kB
+Progress (2): 32/645 kB | 34/446 kB
+Progress (2): 34/645 kB | 34/446 kB
+Progress (2): 34/645 kB | 36/446 kB
+Progress (2): 35/645 kB | 36/446 kB
+Progress (2): 35/645 kB | 37/446 kB
+Progress (2): 36/645 kB | 37/446 kB
+Progress (2): 36/645 kB | 38/446 kB
+Progress (2): 38/645 kB | 38/446 kB
+Progress (2): 38/645 kB | 40/446 kB
+Progress (2): 39/645 kB | 40/446 kB
+Progress (2): 39/645 kB | 41/446 kB
+Progress (2): 41/645 kB | 41/446 kB
+Progress (2): 41/645 kB | 42/446 kB
+Progress (2): 42/645 kB | 42/446 kB
+Progress (2): 42/645 kB | 44/446 kB
+Progress (2): 43/645 kB | 44/446 kB
+Progress (2): 45/645 kB | 44/446 kB
+Progress (2): 45/645 kB | 45/446 kB
+Progress (2): 45/645 kB | 47/446 kB
+Progress (2): 46/645 kB | 47/446 kB
+Progress (2): 46/645 kB | 48/446 kB
+Progress (2): 47/645 kB | 48/446 kB
+Progress (2): 47/645 kB | 49/446 kB
+Progress (2): 49/645 kB | 49/446 kB
+Progress (2): 49/645 kB | 51/446 kB
+Progress (2): 50/645 kB | 51/446 kB
+Progress (2): 50/645 kB | 52/446 kB
+Progress (2): 51/645 kB | 52/446 kB
+Progress (2): 51/645 kB | 53/446 kB
+Progress (2): 53/645 kB | 53/446 kB
+Progress (2): 53/645 kB | 55/446 kB
+Progress (2): 54/645 kB | 55/446 kB
+Progress (2): 56/645 kB | 55/446 kB
+Progress (2): 56/645 kB | 59/446 kB
+Progress (2): 60/645 kB | 59/446 kB
+Progress (2): 60/645 kB | 63/446 kB
+Progress (2): 64/645 kB | 63/446 kB
+Progress (2): 64/645 kB | 67/446 kB
+Progress (2): 68/645 kB | 67/446 kB
+Progress (2): 73/645 kB | 67/446 kB
+Progress (2): 77/645 kB | 67/446 kB
+Progress (2): 77/645 kB | 72/446 kB
+Progress (2): 81/645 kB | 72/446 kB
+Progress (2): 81/645 kB | 76/446 kB
+Progress (2): 81/645 kB | 80/446 kB
+Progress (2): 85/645 kB | 80/446 kB
+Progress (2): 85/645 kB | 84/446 kB
+Progress (2): 89/645 kB | 84/446 kB
+Progress (2): 94/645 kB | 84/446 kB
+Progress (2): 94/645 kB | 89/446 kB
+Progress (2): 98/645 kB | 89/446 kB
+Progress (2): 98/645 kB | 93/446 kB
+Progress (2): 102/645 kB | 93/446 kB
+Progress (2): 102/645 kB | 97/446 kB
+Progress (2): 106/645 kB | 97/446 kB
+Progress (2): 106/645 kB | 101/446 kB
+Progress (2): 111/645 kB | 101/446 kB
+Progress (2): 111/645 kB | 105/446 kB
+Progress (2): 115/645 kB | 105/446 kB
+Progress (2): 115/645 kB | 110/446 kB
+Progress (2): 119/645 kB | 110/446 kB
+Progress (2): 123/645 kB | 110/446 kB
+Progress (2): 123/645 kB | 114/446 kB
+Progress (2): 127/645 kB | 114/446 kB
+Progress (2): 127/645 kB | 118/446 kB
+Progress (2): 132/645 kB | 118/446 kB
+Progress (2): 132/645 kB | 122/446 kB
+Progress (2): 136/645 kB | 122/446 kB
+Progress (2): 136/645 kB | 127/446 kB
+Progress (2): 140/645 kB | 127/446 kB
+Progress (2): 140/645 kB | 131/446 kB
+Progress (2): 140/645 kB | 131/446 kB
+Progress (2): 144/645 kB | 131/446 kB
+Progress (2): 144/645 kB | 135/446 kB
+Progress (2): 144/645 kB | 140/446 kB
+Progress (2): 144/645 kB | 144/446 kB
+Progress (2): 149/645 kB | 144/446 kB
+Progress (2): 149/645 kB | 148/446 kB
+Progress (2): 149/645 kB | 152/446 kB
+Progress (2): 153/645 kB | 152/446 kB
+Progress (2): 155/645 kB | 152/446 kB
+Progress (2): 155/645 kB | 156/446 kB
+Progress (2): 159/645 kB | 156/446 kB
+Progress (2): 159/645 kB | 161/446 kB
+Progress (2): 164/645 kB | 161/446 kB
+Progress (2): 168/645 kB | 161/446 kB
+Progress (2): 172/645 kB | 161/446 kB
+Progress (2): 176/645 kB | 161/446 kB
+Progress (2): 181/645 kB | 161/446 kB
+Progress (2): 185/645 kB | 161/446 kB
+Progress (2): 185/645 kB | 165/446 kB
+Progress (2): 189/645 kB | 165/446 kB
+Progress (2): 193/645 kB | 165/446 kB
+Progress (2): 193/645 kB | 169/446 kB
+Progress (2): 193/645 kB | 173/446 kB
+Progress (2): 197/645 kB | 173/446 kB
+Progress (2): 197/645 kB | 178/446 kB
+Progress (2): 202/645 kB | 178/446 kB
+Progress (2): 202/645 kB | 182/446 kB
+Progress (2): 206/645 kB | 182/446 kB
+Progress (2): 206/645 kB | 186/446 kB
+Progress (2): 210/645 kB | 186/446 kB
+Progress (2): 210/645 kB | 190/446 kB
+Progress (2): 214/645 kB | 190/446 kB
+Progress (2): 214/645 kB | 195/446 kB
+Progress (2): 214/645 kB | 199/446 kB
+Progress (2): 219/645 kB | 199/446 kB
+Progress (2): 219/645 kB | 203/446 kB
+Progress (2): 219/645 kB | 207/446 kB
+Progress (2): 223/645 kB | 207/446 kB
+Progress (2): 223/645 kB | 211/446 kB
+Progress (2): 223/645 kB | 216/446 kB
+Progress (2): 223/645 kB | 220/446 kB
+Progress (2): 239/645 kB | 220/446 kB
+Progress (2): 256/645 kB | 220/446 kB
+Progress (2): 256/645 kB | 236/446 kB
+Progress (2): 272/645 kB | 236/446 kB
+Progress (2): 272/645 kB | 253/446 kB
+Progress (2): 286/645 kB | 253/446 kB
+Progress (2): 286/645 kB | 262/446 kB
+Progress (2): 303/645 kB | 262/446 kB
+Progress (2): 303/645 kB | 279/446 kB
+Progress (2): 303/645 kB | 295/446 kB
+Progress (2): 319/645 kB | 295/446 kB
+Progress (2): 335/645 kB | 295/446 kB
+Progress (2): 335/645 kB | 311/446 kB
+Progress (2): 352/645 kB | 311/446 kB
+Progress (2): 368/645 kB | 311/446 kB
+Progress (2): 368/645 kB | 328/446 kB
+Progress (2): 385/645 kB | 328/446 kB
+Progress (2): 385/645 kB | 344/446 kB
+Progress (2): 385/645 kB | 360/446 kB
+Progress (2): 401/645 kB | 360/446 kB
+Progress (2): 401/645 kB | 377/446 kB
+Progress (2): 401/645 kB | 393/446 kB
+Progress (2): 417/645 kB | 393/446 kB
+Progress (2): 434/645 kB | 393/446 kB
+Progress (2): 434/645 kB | 410/446 kB
+Progress (2): 434/645 kB | 426/446 kB
+Progress (2): 450/645 kB | 426/446 kB
+Progress (2): 466/645 kB | 426/446 kB
+Progress (2): 475/645 kB | 426/446 kB
+Progress (2): 492/645 kB | 426/446 kB
+Progress (2): 492/645 kB | 442/446 kB
+Progress (2): 492/645 kB | 446 kB    
+Progress (2): 508/645 kB | 446 kB
+Progress (2): 524/645 kB | 446 kB
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.17.2/jsoup-1.17.2.bbxservices (446 kB at 1.8 MB/s)
+Progress (1): 541/645 kB
+Progress (1): 557/645 kB
+Progress (1): 573/645 kB
+Progress (1): 590/645 kB
+Progress (1): 606/645 kB
+Progress (1): 623/645 kB
+Progress (1): 639/645 kB
+Progress (1): 645 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.20/xstream-1.4.20.bbxservices (645 kB at 2.5 MB/s)
 [INFO] 
 Effective POMs, after inheritance, interpolation, and profiles are applied:
 
@@ -2647,7 +3429,7 @@ Effective POMs, after inheritance, interpolation, and profiles are applied:
             <version>3.3.0</version>
           </plugin>
           <plugin>
-            <artifactId>maven-jar-plugin</artifactId>
+            <artifactId>maven-bbxservices-plugin</artifactId>
             <version>3.3.0</version>
             <configuration>
               <archive>
@@ -4165,7 +4947,7 @@ Effective POMs, after inheritance, interpolation, and profiles are applied:
                 <rules>
                   <validateDependencyVersion implementation="org.xwiki.tool.enforcer.BannedDependencyType">
                     <dependencyType>xar</dependencyType>
-                    <projectPackaging>jar|webjar</projectPackaging>
+                    <projectPackaging>bbxservices|webjar</projectPackaging>
                     <projectArtifactId>^((?!-test-docker|.*-test-tests).)*$</projectArtifactId>
                   </validateDependencyVersion>
                 </rules>
@@ -4742,7 +5524,7 @@ Effective POMs, after inheritance, interpolation, and profiles are applied:
   <!-- ====================================================================== -->
   <!--                                                                        -->
   <!-- Effective POM for project                                              -->
-  <!-- 'org.xwiki.contrib.bb-plugin:bb-macros:jar:1.0'                        -->
+  <!-- 'org.xwiki.contrib.bb-plugin:bb-macros:bbxservices:1.0'                        -->
   <!--                                                                        -->
   <!-- ====================================================================== -->
   <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -7124,7 +7906,7 @@ Effective POMs, after inheritance, interpolation, and profiles are applied:
             <version>3.3.0</version>
           </plugin>
           <plugin>
-            <artifactId>maven-jar-plugin</artifactId>
+            <artifactId>maven-bbxservices-plugin</artifactId>
             <version>3.3.0</version>
             <configuration>
               <archive>
@@ -8689,7 +9471,7 @@ Effective POMs, after inheritance, interpolation, and profiles are applied:
                 <rules>
                   <validateDependencyVersion implementation="org.xwiki.tool.enforcer.BannedDependencyType">
                     <dependencyType>xar</dependencyType>
-                    <projectPackaging>jar|webjar</projectPackaging>
+                    <projectPackaging>bbxservices|webjar</projectPackaging>
                     <projectArtifactId>^((?!-test-docker|.*-test-tests).)*$</projectArtifactId>
                   </validateDependencyVersion>
                 </rules>
@@ -9114,14 +9896,14 @@ Effective POMs, after inheritance, interpolation, and profiles are applied:
           </executions>
         </plugin>
         <plugin>
-          <artifactId>maven-jar-plugin</artifactId>
+          <artifactId>maven-bbxservices-plugin</artifactId>
           <version>3.3.0</version>
           <executions>
             <execution>
-              <id>default-jar</id>
+              <id>default-bbxservices</id>
               <phase>package</phase>
               <goals>
-                <goal>jar</goal>
+                <goal>bbxservices</goal>
               </goals>
               <configuration>
                 <archive>

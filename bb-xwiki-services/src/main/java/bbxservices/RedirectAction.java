@@ -17,7 +17,7 @@
  * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
  * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
  */
-package xar;
+package bbxservices;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;
@@ -30,8 +30,6 @@ import org.xwiki.model.reference.DocumentReference;
 import org.xwiki.model.reference.DocumentReferenceResolver;
 import org.xwiki.model.reference.EntityReferenceSerializer;
 import org.xwiki.bridge.DocumentAccessBridge;
-
-import java.net.URI;
 
 @Role
 @Path("/team")

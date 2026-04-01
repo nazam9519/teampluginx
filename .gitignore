@@ -2,3 +2,4 @@ target/
 xip/
 *.log
 target-eclipse/
+.idea/
