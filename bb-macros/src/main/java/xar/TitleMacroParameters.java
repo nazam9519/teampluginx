@@ -34,7 +34,7 @@ public class TitleMacroParameters {
     }
 
     /**
-     * @param parameter for terminal link
+     * @param spaceName for name of current space/page
      */
     @PropertyDescription("Title Function")
     public void setFunction(String spaceName) {
