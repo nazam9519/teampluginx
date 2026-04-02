@@ -54,12 +54,17 @@ public class ExampleMacro extends AbstractMacro<ExampleMacroParameters> {
 		super("Simple Example", DESCRIPTION, ExampleMacroParameters.class);
 	}
 
+
 	@Override
 	public List<Block> execute(ExampleMacroParameters parameters, String content, MacroTransformationContext context)
 			throws MacroExecutionException {
+
 		List<Block> result;
 		String bbgredir = "bbg://screens/" + parameters.getFunction();
 		ResourceReference bbfunc_link = new ResourceReference(bbgredir, ResourceType.URL);
+		if(context == null){
+			throw new MacroExecutionException("No context Provided");
+		}
 
 		List<Block> bb_func_label = List.of(new WordBlock("{" + parameters.getFunction() + " <GO>}"));
 		LinkBlock bb_link = new LinkBlock(bb_func_label, bbfunc_link, false);

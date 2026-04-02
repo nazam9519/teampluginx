@@ -52,8 +52,6 @@ public class TitleMacro extends AbstractMacro<TitleMacroParameters> {
     private Provider<XWikiContext> xContextProvider;
     @Inject
     private Logger log;
-    @Inject
-    private DocumentAccessBridge documentAccessBridge;
 
     public TitleMacro() {
         super("Bloomberg Title", "A Macro to Display an Overview of a Title(User Inputs and Decides)", TitleMacroParameters.class);
