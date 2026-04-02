@@ -23,6 +23,7 @@ import org.xwiki.properties.annotation.PropertyMandatory;
 import org.xwiki.properties.annotation.PropertyDescription;
 
 /**
+ * @TODO Refactor this as the BBFunctionMacro Parameters
  * Parameters for the {@link xar.internal.ExampleMacro} Macro.
  */
 public class ExampleMacroParameters {

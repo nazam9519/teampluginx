@@ -37,6 +37,7 @@ import org.xwiki.rendering.transformation.MacroTransformationContext;
 
 /**
  * Example Macro.
+ * @TODO Refactor this to bb-func and rename it to function macro
  */
 @Component
 @Singleton
@@ -60,17 +61,7 @@ public class ExampleMacro extends AbstractMacro<ExampleMacroParameters> {
 			throws MacroExecutionException {
 
 		List<Block> result;
-		String bbgredir = "bbg://screens/" + parameters.getFunction();
-		ResourceReference bbfunc_link = new ResourceReference(bbgredir, ResourceType.URL);
-		if(context == null){
-			throw new MacroExecutionException("No context Provided");
-		}
-
-		List<Block> bb_func_label = List.of(new WordBlock("{" + parameters.getFunction() + " <GO>}"));
-		LinkBlock bb_link = new LinkBlock(bb_func_label, bbfunc_link, false);
-		bb_link.setParameter("title", "terminal link");
-		bb_link.setParameter("target", "_self");
-		bb_link.setParameter("rel", "nofollow noopener");
+		LinkBlock bb_link = getBb_link(parameters, context);
 
 		// Handle both inline mode and standalone mode.
 		if (context.isInline()) {
@@ -82,6 +73,21 @@ public class ExampleMacro extends AbstractMacro<ExampleMacroParameters> {
 		}
 
 		return result;
+	}
+
+	private static LinkBlock getBb_link(ExampleMacroParameters parameters, MacroTransformationContext context) throws MacroExecutionException {
+		String bbgredir = "bbg://screens/" + parameters.getFunction();
+		ResourceReference bbfunc_link = new ResourceReference(bbgredir, ResourceType.URL);
+		if(context == null){
+			throw new MacroExecutionException("No context Provided");
+		}
+
+		List<Block> bb_func_label = List.of(new WordBlock("{" + parameters.getFunction() + " <GO>}"));
+		LinkBlock bb_link = new LinkBlock(bb_func_label, bbfunc_link, false);
+		bb_link.setParameter("title", "terminal link");
+		bb_link.setParameter("target", "_self");
+		bb_link.setParameter("rel", "nofollow noopener");
+		return bb_link;
 	}
 
 	@Override

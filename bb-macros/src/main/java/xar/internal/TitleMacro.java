@@ -44,7 +44,7 @@ import xar.BBMacros;
 @Component
 @Named("bb-title")
 @Singleton
-public class TitleMacro extends AbstractMacro<TitleMacroParameters> {
+public class TitleMacro extends AbstractMacro<Object> {
 //    @Inject
 //    @Named("jsx")
 //    private SkinExtension jsx;
@@ -68,7 +68,7 @@ public class TitleMacro extends AbstractMacro<TitleMacroParameters> {
 
 
     @Override
-    public List<Block> execute(TitleMacroParameters parameters, String content,
+    public List<Block> execute(Object parameters, String content,
                                MacroTransformationContext context) throws MacroExecutionException {
         //render the heading with the background gradient
         if(dab == null){
