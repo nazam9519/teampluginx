@@ -37,7 +37,7 @@ public class TitleMacroParameters {
      * @param spaceName for name of current space/page
      */
     @PropertyDescription("Title Function")
-    public void setFunction(String spaceName) {
+    public void setSpaceName(String spaceName) {
         this.spaceName = spaceName;
     }
 }
