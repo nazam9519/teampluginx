@@ -1,19 +1,27 @@
 #!/usr/bin/bash
 
 set -e
-
+BASE_DIR="$(pwd)"
 SOURCE_DIR="$(pwd)/xip"
 XWIKI_DIR="$HOME/localprojects/docker-xwiki"
 STAGING_DIR="$XWIKI_DIR/xips"
 UNZIP_DIR="$STAGING_DIR/bbmacsdir"
 DEST_DIR="$XWIKI_DIR/xwikidata/data/extension/repository"
+echo $BASE_DIR
 echo $SOURCE_DIR
 echo $XWIKI_DIR
 echo $STAGING_DIR
 echo $UNZIP_DIR
 echo $DEST_DIR
 
-
+rm -rf "$SOURCE_DIR"
+mkdir "$SOURCE_DIR"
+find "$BASE_DIR" -path "*/target/*.xip" | while read xip; do
+  filename=$(basename "$xip")
+  echo "Copying $filename from $xip to $SOURCE_DIR/$filename"
+  cp "$xip" "$SOURCE_DIR/$filename"
+done
+#exit 0
 # ── 1. Copy all .xip files to staging and rename to .zip ──────────────────────
 for file in "$SOURCE_DIR"/*.xip; do
     cp "$file" "$STAGING_DIR/$(basename "${file%.xip}").zip"

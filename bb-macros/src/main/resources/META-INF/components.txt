@@ -1,1 +1,2 @@
 xar.internal.ExampleMacro
+xar.internal.TitleMacro

@@ -67,9 +67,6 @@ public class ExampleMacro extends AbstractMacro<ExampleMacroParameters> {
 		bb_link.setParameter("target", "_self");
 		bb_link.setParameter("rel", "nofollow noopener");
 
-		//List<Block> wordBlockAsList = List.of(new WordBlock(parameters.getFunction()));
-		//List<Block> wordBlockAsList = List.of(new WordBlock(parameters.getFunction()));
-
 		// Handle both inline mode and standalone mode.
 		if (context.isInline()) {
 		    result = List.of(bb_link);
