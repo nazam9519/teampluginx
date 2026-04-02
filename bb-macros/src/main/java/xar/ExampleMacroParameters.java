@@ -40,7 +40,7 @@ public class ExampleMacroParameters {
 	}
     
 	/**
-	 * @param parameter for terminal link
+	 * @param function for terminal link
 	 */
 	@PropertyMandatory
 	@PropertyDescription("Terminal Function")

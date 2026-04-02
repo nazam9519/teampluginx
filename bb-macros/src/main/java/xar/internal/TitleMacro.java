@@ -50,8 +50,12 @@ public class TitleMacro extends AbstractMacro<TitleMacroParameters> {
 //    private SkinExtension jsx;
     @Inject
     private Provider<XWikiContext> xContextProvider;
+
     @Inject
     private Logger log;
+
+    @Inject
+    private DocumentAccessBridge dab;
 
     public TitleMacro() {
         super("Bloomberg Title", "A Macro to Display an Overview of a Title(User Inputs and Decides)", TitleMacroParameters.class);
@@ -67,20 +71,26 @@ public class TitleMacro extends AbstractMacro<TitleMacroParameters> {
     public List<Block> execute(TitleMacroParameters parameters, String content,
                                MacroTransformationContext context) throws MacroExecutionException {
         //render the heading with the background gradient
-        List<Block> blocks = new ArrayList<>();
-        blocks.add(injectCss());
+        if(dab == null){
+            throw new MacroExecutionException("xContextProvider not injected and initialized");
+        }
+        try {
+            List<Block> blocks = new ArrayList<>();
+            blocks.add(injectCss());
+            HeaderBlock header = new HeaderBlock(List.of(new WordBlock(
+                            (content != null && !content.isEmpty()) ?
+                                    content.trim() :
+                                    dab.getCurrentDocumentReference().getLastSpaceReference().getName()
+                    )
+            ), HeaderLevel.LEVEL2);
+            header.setParameter("class", "title");
+            log.debug("Rendering bb-title macro version {}", BBMacros.VERSION);
+            blocks.add(header);
 
-        HeaderBlock header = new HeaderBlock(List.of(new WordBlock(
-                (content != null && !content.isEmpty()) ?
-                        content.trim() :
-                        xContextProvider.get().getDoc().getDocumentReference().getLastSpaceReference().getName()
-                )
-        ),HeaderLevel.LEVEL2);
-        header.setParameter("class", "title");
-        log.debug("Rendering bb-title macro version {}", BBMacros.VERSION);
-        blocks.add(header);
-
-        return blocks;
+            return blocks;
+        }catch(Exception e){
+            throw new MacroExecutionException(e.getMessage());
+        }
     }
 
     private RawBlock injectCss() {

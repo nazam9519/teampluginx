@@ -115,6 +115,7 @@
       <groupId>org.xwiki.platform</groupId>
       <artifactId>xwiki-platform-oldcore</artifactId>
       <version>17.10.3</version>
+      <scope>provided</scope>
     </dependency>
   </dependencies>
 </project>

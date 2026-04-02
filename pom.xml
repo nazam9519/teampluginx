@@ -42,7 +42,7 @@
     <packaging>pom</packaging>
     <description>bb xwiki plugins parent pom</description>
     <properties>
-        <revision>1.36</revision>
+        <revision>1.37</revision>
         <jira.version>11.1.2</jira.version>
         <confluence.version>1.0.38</confluence.version>
         <xwiki.version>17.10.3</xwiki.version>
