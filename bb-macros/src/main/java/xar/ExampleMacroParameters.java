@@ -28,7 +28,7 @@ import org.xwiki.properties.annotation.PropertyDescription;
 public class ExampleMacroParameters {
         
 	/**
-	 * @see {@link #getFunction()}
+	 * @see "{@link #getFunction()"}"
 	 */
 	private String function;
 

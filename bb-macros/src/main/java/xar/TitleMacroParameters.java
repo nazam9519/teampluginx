@@ -22,7 +22,7 @@ import org.xwiki.properties.annotation.PropertyDescription;
 
 public class TitleMacroParameters {
     /**
-     * @see {@link #getSpaceName()}
+     * @see "{@link #getSpaceName()}"
      */
     private String spaceName;
 
